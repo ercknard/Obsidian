@@ -353,3 +353,100 @@ background-image: url(/images/bgs/bg-main-scifi.webp);
   0% {filter: drop-shadow(1px 1px 150px rgba(255,255,255,1)) brightness(110%);}
   100% {filter: drop-shadow(1px 1px 5px rgba(255,255,255,1))}
 }
+
+/*----------------------------------------- CAROUSEL ----------------------------------------*/
+
+.slideshow-container {
+  width: auto;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: wheat;
+  color: black;
+}
+
+
+.fade {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+
+/*----------------------------------------- HOME ----------------------------------------*/
+
+.front-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 98vh;
+}
+
+.squid {
+  filter: drop-shadow(20px 10px 20px rgba(0,0,0,1));
+  -webkit-animation: squid .85s infinite  alternate;
+  animation: squid .85s infinite alternate;
+}
+
+@-webkit-keyframes squid {
+  0% { transform: translateY(0);}
+  100% { transform: translateY(-3px);}
+}
+@keyframes squid {
+  0% { transform: translateY(0);}
+  100% { transform: translateY(-3px);}
+}
+
+h1.cryptech-info {
+  font-style: italic;
+  font-size: 3rem;
+  filter: drop-shadow(20px 10px 5px rgba(0,0,0,.5))
+}
+
+p.cryptech-info {
+  -webkit-text-stroke: .1px black;
+  font-size: 1.2rem;
+}
+
+.typed-text {
+  color: wheat;
+}
+
+.coin-on-main {
+  width: 5rem;
+}
