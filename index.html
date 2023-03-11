@@ -15,10 +15,37 @@
       <link id="styleCorruption" rel="stylesheet" type="text/css" href="styles/Ecorruption.css">
       <link id="styleScifi" rel="stylesheet" type="text/css" href="styles/Fscifi.css">
    </head>
-   <header>
-
+   <header class="index-navigation">
+      <div class="main-navigation-index">
+            <ul id="home-active-btn" class="navigation-list">
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">HOME</div>
+               </li>
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Play')" style="display: inline-block;">SERVERS</div>
+               </li>
+               <li>
+                <div class="nav-buttons" onclick="openTab('Ages')" style="display: inline-block;">AGES</div>
+              </li>
+               <li>
+                <a href="https://wiki.cryptechcraft.xyz" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">GAMEGUIDE</div></a>
+              </li>
+               <img class="index-logo" src="images/icons/pack.png">
+               <li>
+                <a href="https://wallet.cryptechcraft.xyz/" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">WALLET</div></a>
+             </li>
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Support')" style="display: inline-block;">SUPPORT</div>
+               </li>
+               <li>
+                <div class="nav-buttons" onclick="openTab('About')" style="display: inline-block;">ABOUT</div>
+              </li>
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Donate')" style="display: inline-block;">DONATE</div>
+               </li>
+            </ul>
+      </div>
    </header>
-
    <body class="bg-landpage">
       <div id="particles-js">
          <script src="scripts/particlescdn.js"></script>
@@ -34,9 +61,33 @@
 
    </body>
 
-   <footer>
-
-   </footer>
+<!--------------------------------------------------FOOTER----------------------------------------------------------->
+<footer class="main-footer">
+   <img class="footer-icon" src="/images/icons/pack.png"> </img>
+   <ul class="social-icon">
+      <li class="social-icon__item">
+         <a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+         </a>
+      </li>
+      <li class="social-icon__item">
+         <a class="social-icon__link" href="https://twitter.com/CryptechCraft">
+            <ion-icon name="logo-twitter"></ion-icon>
+         </a>
+      </li>
+      <li class="social-icon__item">
+         <a class="social-icon__link" href="https://discord.com/invite/WxvrzzPFAH">
+            <ion-icon name="logo-discord"></ion-icon>
+         </a>
+      </li>
+      <li class="social-icon__item">
+         <a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+         </a>
+      </li>
+   </ul>
+   <h3 class="main-footer-text text-motion-index"> © 2023 CryptechCraft | All rights reserved.</h3>
+</footer>
 
        <!--------------------------------------------------LOADER----------------------------------------------------------->
    <loader>
@@ -56,4 +107,6 @@
 <!--------------------------------------------------SCRIPTS----------------------------------------------------------->
    <script src="scripts/loader.js"></script>
    <script src="scripts/themes.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>

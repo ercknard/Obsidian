@@ -176,3 +176,179 @@ background-image: url(/images/bgs/bg-main-corruption.webp);
   background-image: url(/images/bgs/bg-main-corruption.webp);
 }
 }
+
+/*----------------------------------------- FOOTER ----------------------------------------*/
+
+.main-footer {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.main-footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-icon {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    -webkit-animation: loader-icon .85s infinite  alternate;
+    animation: loader-icon .85s infinite alternate;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    border-left: none;
+    border-bottom: none;
+  }
+
+@-webkit-keyframes loader-icon {
+    0% { transform: translateY(0); filter: drop-shadow(1px 1px 10px rgba(255,255,255,0.25)) brightness(110%);}
+    100% { transform: translateY(-1px); filter: drop-shadow(1px 1px 5px rgba(255,255,255,0.5))}
+}
+@keyframes loader-icon {
+    0% { transform: translateY(0); filter: drop-shadow(1px 1px 10px rgba(255,255,255,0.25)) brightness(110%);}
+    100% { transform: translateY(-1px); filter: drop-shadow(1px 1px 5px rgba(255,255,255,0.5))}
+}
+
+.text-motion-index {
+  background: linear-gradient(90deg, #5B8FB9, #fff, #fff);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: #fff;
+  animation: text-motion-index 1.7s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes text-motion-index {
+  0% {
+      background-position: -500%;
+ }
+  100% {
+      background-position: 500%;
+ }
+}
+
+.social-icon__link-contact {
+  font-size: 5rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+/*----------------------------------------- HEADER ----------------------------------------*/
+
+.index-navigation {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0));
+}
+
+.main-navigation-index {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-buttons {
+  text-decoration: none;
+  color: white;
+  padding: 1.5rem;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-buttons:hover {
+  background-image: linear-gradient(to top, rgba(255,255,255,.3), rgba(255,255,255,0));
+}
+
+.nav-buttons:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-buttons:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.active {
+  background-image: linear-gradient(to top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  border-bottom: 1px solid white; 
+}
+
+.index-logo {
+  width: 90px;
+  -webkit-animation: loader-icon .85s infinite  alternate;
+  animation: loader-icon .85s infinite alternate;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 100%;
+  border-left: none;
+  border-bottom: none;
+}
+
+.index-logo:hover {
+  -webkit-animation: loader-icon-spin 2s infinite  alternate;
+  animation: loader-icon-spin 2s infinite alternate;
+}
+
+@-webkit-keyframes loader-icon-spin {
+  0% {filter: drop-shadow(1px 1px 150px rgba(255,255,255,1)) brightness(110%);}
+  100% {filter: drop-shadow(1px 1px 5px rgba(255,255,255,1))}
+}
+@keyframes loader-icon-spin {
+  0% {filter: drop-shadow(1px 1px 150px rgba(255,255,255,1)) brightness(110%);}
+  100% {filter: drop-shadow(1px 1px 5px rgba(255,255,255,1))}
+}
