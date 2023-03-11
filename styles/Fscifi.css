@@ -143,3 +143,36 @@ img.vert-move-6 {
 .coin {
   width: 3rem;
 }
+
+/*----------------------------------------- BACKGROUND ----------------------------------------*/
+
+.bg-landpage {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: bg-animation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bg-animation {
+  0% {
+     background-image: url(/images/bgs/bg-main-scifi.webp);
+ }
+  20% {
+     background-image: url(/images/bgs/bg-sub-scifi.webp);
+ }
+ 40% {
+  background-image: url(/images/bgs/bg-sub-scifi.webp);
+}
+60% {
+background-image: url(/images/bgs/bg-sub-scifi.webp);
+}
+80% {
+background-image: url(/images/bgs/bg-main-scifi.webp);
+}
+ 100% {
+  background-image: url(/images/bgs/bg-main-scifi.webp);
+}
+}
