@@ -272,6 +272,13 @@ background-image: url(/images/bgs/bg-main-scifi.webp);
 
 /*----------------------------------------- HEADER ----------------------------------------*/
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
 .width-class {
   display: block;
   margin-right: auto;
@@ -409,6 +416,7 @@ background-image: url(/images/bgs/bg-main-scifi.webp);
   }
 
 /*----------------------------------------- HOME ----------------------------------------*/
+
 
 .front-index {
   display: flex;
@@ -616,6 +624,18 @@ p.cryptech-info {
 .floating-container:hover .element-container .float-element:nth-child(3) {
   -webkit-animation: come-in 0.4s forwards 0.6s;
           animation: come-in 0.4s forwards 0.6s;
+}
+.floating-container:hover .element-container .float-element:nth-child(4) {
+  -webkit-animation: come-in 0.4s forwards 0.8s;
+          animation: come-in 0.4s forwards 0.8s;
+}
+.floating-container:hover .element-container .float-element:nth-child(5) {
+  -webkit-animation: come-in 0.4s forwards 1s;
+          animation: come-in 0.4s forwards 1s;
+}
+.floating-container:hover .element-container .float-element:nth-child(6) {
+  -webkit-animation: come-in 0.4s forwards 1.2s;
+          animation: come-in 0.4s forwards 1.2s;
 }
 .floating-container .floating-button {
   position: absolute;
