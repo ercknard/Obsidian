@@ -8,18 +8,30 @@
       <meta name="keywords" content="Minecraft, Cryptocurrency, BTC, ETH, MRX, SEND, OHMC, SCC">
       <meta name="author" content="Ercknard Guren I">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="styles/cryptechcraft.css">
-      <link rel="stylesheet" href="styles/medieval.css">
-      <link rel="stylesheet" href="styles/nether.css">
-      <link rel="stylesheet" href="styles/scifi.css">
-      <link rel="stylesheet" href="styles/corruption.css">
-      <link rel="stylesheet" href="styles/black.css">
+      <link id="styleCryptechcraft" rel="stylesheet" type="text/css" href="styles/Acryptechcraft.css">
+      <link id="styleDarkmode" rel="stylesheet" type="text/css" href="styles/Bdarkmode.css">
+      <link id="styleMedieval" rel="stylesheet" type="text/css" href="styles/Cmedieval.css">
+      <link id="styleNether" rel="stylesheet" type="text/css" href="styles/Dnether.css">
+      <link id="styleCorruption" rel="stylesheet" type="text/css" href="styles/Ecorruption.css">
+      <link id="styleScifi" rel="stylesheet" type="text/css" href="styles/Fscifi.css">
    </head>
    <header>
 
    </header>
 
-   <body>
+   <body class="bg-landpage">
+
+      <h2>Changing Style Sheets</h2>
+    <br />
+    Switch between multiple themes 
+    using the buttons below.<br />
+
+    <button onclick="setStylesheet('styleCryptechcraft')">Style 1</button>
+    <button onclick="setStylesheet('styleDarkmode')">Style 2</button>
+    <button onclick="setStylesheet('styleMedieval')">Style 3</button>
+    <button onclick="setStylesheet('styleNether')">Style 1</button>
+    <button onclick="setStylesheet('styleCorruption')">Style 2</button>
+    <button onclick="setStylesheet('styleScifi')">Style 3</button>
 
    </body>
 
@@ -42,4 +54,7 @@
     </div>
  </div>
    </loader>
+<!--------------------------------------------------SCRIPTS----------------------------------------------------------->
+   <script src="scripts/loader.js"></script>
+   <script src="scripts/themes.js"></script>
 </html>
