@@ -366,6 +366,7 @@ header {
 .slideshow-container {
   width: auto;
   margin: auto;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 /* Hide the images by default */
 .mySlides {
@@ -442,7 +443,7 @@ header {
   h1.cryptech-info {
     font-style: italic;
     font-size: 3rem;
-    filter: drop-shadow(20px 10px 5px rgba(0,0,0,.5))
+    filter: drop-shadow(20px 10px 5px rgba(0,0,0,.5));
   }
   
   p.cryptech-info {
@@ -456,6 +457,7 @@ header {
   
   .coin-on-main {
     width: 5rem;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
   }
 
   /*----------------------------------------- FAB ----------------------------------------*/
