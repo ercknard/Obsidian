@@ -272,14 +272,15 @@ background-image: url(/images/bgs/bg-main-corruption.webp);
 
 /*----------------------------------------- HEADER ----------------------------------------*/
 
-.index-navigation {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0));
-}
-
-.main-navigation-index {
+.width-class {
+  display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 60%;
+  width: 55%;
+}
+
+.index-navigation {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0));
 }
 
 .navigation-list {
