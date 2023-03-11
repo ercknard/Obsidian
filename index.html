@@ -14,6 +14,7 @@
       <link id="styleNether" rel="stylesheet" type="text/css" href="styles/Dnether.css">
       <link id="styleCorruption" rel="stylesheet" type="text/css" href="styles/Ecorruption.css">
       <link id="styleScifi" rel="stylesheet" type="text/css" href="styles/Fscifi.css">
+      <link id="styleCryptechcraft" rel="stylesheet" type="text/css" href="styles/Acryptechcraft.css">
    </head>
 
    <!--------------------------------------------------HEADER----------------------------------------------------------->
@@ -54,13 +55,6 @@
          <script src="scripts/particlescdn.js"></script>
          <script src="scripts/particles.js"></script>
       </div>
-
-    <button class="fade" onclick="setStylesheet('styleCryptechcraft')">Style 1</button>
-    <button class="fade" onclick="setStylesheet('styleDarkmode')">Style 2</button>
-    <button class="fade" onclick="setStylesheet('styleMedieval')">Style 3</button>
-    <button class="fade" onclick="setStylesheet('styleNether')">Style 1</button>
-    <button class="fade" onclick="setStylesheet('styleCorruption')">Style 2</button>
-    <button class="fade" onclick="setStylesheet('styleScifi')">Style 3</button>
 
     <!--------------------------------------------------HOME----------------------------------------------------------->
     <div class="tab" id="Home" style="display:block">
@@ -128,6 +122,32 @@
    </ul>
    <h3 class="main-footer-text text-motion-index"> © 2023 CryptechCraft | All rights reserved.</h3>
 </footer>
+
+<!--------------------------------------------------FAB----------------------------------------------------------->
+
+<div class="floating-container">
+   <div class="floating-button"><img class="image-selection-fab" src="images/icons/pack.png"></div>
+   <div class="element-container">   
+      <span onclick="setStylesheet('styleCryptechcraft')" class="float-element tooltip-left">
+         <img class="image-selection-fab" src="images/text/beacon.webp"></span>
+       
+       <span onclick="setStylesheet('styleDarkmode')" class="float-element tooltip-left">
+         <img class="image-selection-fab" src="images/text/chiseled-blackstone.webp"></span>
+       
+        <span onclick="setStylesheet('styleMedieval')" class="float-element tooltip-left">
+         <img class="image-selection-fab" src="images/text/Mossy.webp"></span>    
+
+      <span onclick="setStylesheet('styleNether')" class="float-element tooltip-left">
+         <img class="image-selection-fab" src="images/text/shroomlight.webp"></span>
+        
+        <span onclick="setStylesheet('styleCorruption')" class="float-element tooltip-left">
+         <img class="image-selection-fab" src="images/text/Sculk.webp"></span>
+       
+       <span onclick="setStylesheet('styleScifi')" class="float-element tooltip-left">
+         <img class="image-selection-fab" src="images/text/polished-diorite.webp"></span>
+     
+   </div>
+   </div>
 
        <!--------------------------------------------------LOADER----------------------------------------------------------->
    <loader>
