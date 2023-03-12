@@ -50,6 +50,47 @@
             </ul>
       </div>
    </header>
+
+   <header class="index-navigation-mobile">
+
+      <div class="window">
+         <div class="header">
+           <div class="burger-container">
+             <div id="burger">
+               <div class="bar topBar"></div>
+               <div class="bar btmBar"></div>
+             </div>
+           </div>
+           <div class="icon icon-apple"></div>
+           <ul id="home-active-btn" class="menu">
+            <li>
+               <div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">HOME</div>
+            </li>
+            <li>
+               <div class="nav-buttons" onclick="openTab('Play')" style="display: inline-block;">SERVERS</div>
+            </li>
+            <li>
+             <div class="nav-buttons" onclick="openTab('Ages')" style="display: inline-block;">AGES</div>
+           </li>
+            <li>
+             <a href="https://wiki.cryptechcraft.xyz" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">GAMEGUIDE</div></a>
+           </li>
+            <li>
+             <a href="https://wallet.cryptechcraft.xyz/" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">WALLET</div></a>
+          </li>
+            <li>
+               <div class="nav-buttons" onclick="openTab('Support')" style="display: inline-block;">SUPPORT</div>
+            </li>
+            <li>
+             <div class="nav-buttons" onclick="openTab('About')" style="display: inline-block;">ABOUT</div>
+           </li>
+            <li>
+               <div class="nav-buttons" onclick="openTab('Donate')" style="display: inline-block;">DONATE</div>
+            </li>
+           </ul>
+           <div class="shop icon icon-bag"></div>
+         </div>
+</header>
    <body class="bg-landpage">
       <div id="particles-js">
          <script src="scripts/particlescdn.js"></script>
@@ -120,10 +161,10 @@
          </a>
       </li>
    </ul>
-   <audio controls autoplay>
+<!--    
+   <audio loop autoplay id="themed">
       <source src="audio/Wither Storm Theme Minecraft Story Mode 101 OST.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
+    </audio> -->
    <h3 class="main-footer-text text-motion-index"> © 2023 CryptechCraft | All rights reserved.</h3>
 </footer>
 
@@ -175,6 +216,8 @@
    <script src="scripts/tab.js"></script>
    <script src="scripts/copy.js"></script>
    <script src="scripts/typing.js"></script>
+   <script src="scripts/audio.js"></script>
+   <script src="scripts/mobilecontainer.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
