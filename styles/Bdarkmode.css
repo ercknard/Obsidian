@@ -795,43 +795,9 @@ p.cryptech-info {
 }
 
 .floating-container:hover {
-  min-height: 50vh;
-}
-
-@media (max-height: 1400px) {
-  .floating-container:hover {
-    min-height: 50vh;
-  }
-}
-
-@media (max-width: 1900px) {
-  .floating-container:hover {
-    min-height: 50vh;
-  }
-}
-
-@media (max-width: 1600px) {
-  .floating-container:hover {
-    min-height: 50vh;
-  }
-}
-
-@media (max-width: 1300px) {
-  .floating-container:hover {
-    min-height: 50vh;
-  }
-}
-
-@media (max-width: 1024px) {
-  .floating-container:hover {
-    min-height: 50vh;
-  }
-}
-
-@media (max-width: 768px) {
-  .floating-container:hover {
-    min-height: 50vh;
-  }
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
 }
 
 @keyframes shakess {
