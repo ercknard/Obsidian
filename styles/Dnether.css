@@ -16,6 +16,22 @@ html {
   color: #fff;
 }
 
+@media (max-width: 1200px) {
+  html {
+    font-size: .85rem;
+    font-weight: normal;
+    color: #fff;
+ }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: .7rem;
+    font-weight: normal;
+    color: #fff;
+ }
+}
+
 #particles-js{ 
   position:fixed; 
   width: 100%; 
@@ -235,6 +251,12 @@ background-image: url(/images/bgs/bg-main-nether.webp);
     border-bottom: none;
   }
 
+  @media (max-width: 768px) {
+    .footer-icon {
+        display: none;
+   }
+  }
+
 @-webkit-keyframes loader-icon {
     0% { transform: translateY(0); filter: drop-shadow(1px 1px 10px rgba(255,255,255,0.25)) brightness(110%);}
     100% { transform: translateY(-1px); filter: drop-shadow(1px 1px 5px rgba(255,255,255,0.5))}
@@ -361,6 +383,172 @@ header {
   100% {filter: drop-shadow(1px 1px 5px rgba(255,255,255,1))}
 }
 
+@media (max-width: 1900px) {
+  .width-class {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+  }
+}
+@media (max-width: 1600px) {
+  .width-class {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+  }
+}
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+  .index-navigation-mobile {
+    display: block;
+  } 
+
+  .index-navigation {
+    display: none;
+  }
+  .checkbox-container {
+    visibility: hidden;
+  }
+    .checkbox-container {
+        visibility: visible;
+        display: block;
+        float: left;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        background: #182825;
+   }
+    .checkbox-trigger {
+        opacity: 0;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        cursor: pointer;
+        z-index: 9999;
+   }
+    .hamburger-menu, .hamburger-menu::before, .hamburger-menu::after {
+        display: block;
+        position: absolute;
+        background: white;
+        width: 30px;
+        height: 3px;
+        margin: 1.3em 3em;
+        transition: background 0.3s;
+   }
+    .hamburger-menu::before, .hamburger-menu::after {
+        content: '';
+        position: absolute;
+        margin: -0.7em 0 0;
+        transition: width 0.7s ease 0.3s, transform 0.7s ease 0.3s;
+   }
+    .hamburger-menu::after {
+        margin-top: 0.7em;
+   }
+    .hamburger-menu {
+        position: relative;
+        display: block;
+        margin: 0;
+        margin-top: 1.45em;
+        margin-right: 0.35em;
+        margin-left: 0.35em;
+        margin-bottom: 1.45em;
+        transition: width 0.3s ease;
+   }
+    .checkbox-trigger:checked {
+        left: 202px;
+   }
+    .checkbox-trigger:checked + .menu-content .hamburger-menu {
+        width: 2em;
+        transition: width 0.7s ease 0.7s;
+   }
+    .checkbox-trigger:checked + .menu-content .hamburger-menu::before {
+        width: 1.2em;
+        transform: rotate(-35deg);
+        margin-top: -0.4em;
+   }
+    .checkbox-trigger:checked + .menu-content .hamburger-menu::after {
+        width: 1.2em;
+        transform: rotate(35deg);
+        margin-top: 0.4em;
+   }
+    .checkbox-trigger:checked + .menu-content ul {
+        width: 200px;
+        height: 100%;
+        transition: width 0.7s ease 0.3s, height 0.3s ease;
+   }
+    .menu-content {
+        display: flex;
+        background: black;
+        border: .5px solid white;
+        color: black;
+        float: left;
+        padding: 10px;
+   }
+    .menu-content ul {
+        display: block;
+        padding-left: 0;
+        padding-top: .5em;
+        padding-bottom: 1em;
+        margin: 0;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.3s ease 0.7s, width 0.7s ease;
+   }
+    .menu-content ul li {
+        list-style: none;
+        padding-left: 10px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        cursor: pointer;
+        transition: color 0.5s, background 0.5s;
+   }
+    .menu-content ul li:hover {
+        color: #0CD6AD;
+        background: gray;
+   }
+
+   .nav-buttons-mobile {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .index-logo {
+    width: 50px;
+    -webkit-animation: loader-icon .85s infinite  alternate;
+    animation: loader-icon .85s infinite alternate;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 100%;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+}
+@media (max-width: 600px) {
+
+}
 /*----------------------------------------- CAROUSEL ----------------------------------------*/
 
 .slideshow-container {

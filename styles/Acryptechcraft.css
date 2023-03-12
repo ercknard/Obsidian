@@ -16,6 +16,22 @@
     color: #fff;
   }
 
+  @media (max-width: 1200px) {
+    html {
+      font-size: .85rem;
+      font-weight: normal;
+      color: #fff;
+   }
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: .7rem;
+      font-weight: normal;
+      color: #fff;
+   }
+  }
+
   #particles-js{ 
     position:fixed; 
     width: 100%; 
@@ -235,6 +251,12 @@ background-image: url(/images/bgs/bg-main-cryptech.webp);
     border-bottom: none;
   }
 
+  @media (max-width: 768px) {
+    .footer-icon {
+        display: none;
+   }
+  }
+
 @-webkit-keyframes loader-icon {
     0% { transform: translateY(0); filter: drop-shadow(1px 1px 10px rgba(255,255,255,0.25)) brightness(110%);}
     100% { transform: translateY(-1px); filter: drop-shadow(1px 1px 5px rgba(255,255,255,0.5))}
@@ -399,21 +421,20 @@ header {
   .checkbox-container {
     visibility: hidden;
   }
-  @media (max-width: 768px) {
     .checkbox-container {
         visibility: visible;
         display: block;
         float: left;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         position: relative;
         background: #182825;
    }
     .checkbox-trigger {
         opacity: 0;
         position: absolute;
-        width: 65px;
-        height: 65px;
+        width: 50px;
+        height: 50px;
         left: 0px;
         cursor: pointer;
         z-index: 9999;
@@ -421,7 +442,7 @@ header {
     .hamburger-menu, .hamburger-menu::before, .hamburger-menu::after {
         display: block;
         position: absolute;
-        background: wheat;
+        background: white;
         width: 30px;
         height: 3px;
         margin: 1.3em 3em;
@@ -465,13 +486,13 @@ header {
    }
     .checkbox-trigger:checked + .menu-content ul {
         width: 200px;
-        height: 200px;
+        height: 100%;
         transition: width 0.7s ease 0.3s, height 0.3s ease;
    }
     .menu-content {
         display: flex;
         background: black;
-        border: 1px solid wheat;
+        border: .5px solid white;
         color: black;
         float: left;
         padding: 10px;
@@ -499,7 +520,35 @@ header {
         color: #0CD6AD;
         background: gray;
    }
+
+   .nav-buttons-mobile {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
   }
+
+  .index-logo {
+    width: 50px;
+    -webkit-animation: loader-icon .85s infinite  alternate;
+    animation: loader-icon .85s infinite alternate;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 100%;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
 }
 @media (max-width: 600px) {
 
@@ -603,6 +652,27 @@ header {
   .coin-on-main {
     width: 5rem;
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+
+  @media (max-width: 768px) {
+    .front-index {
+      display: flex;
+      justify-content: center;
+      align-items: normal;
+      min-height: 98vh;
+      padding: 0;
+      flex-direction: column;
+    }
+
+    .coin-mobile-view {
+      display: flex;
+      justify-content: space-evenly;
+   }
+
+   .team {
+    width: 50%;
+   }
+
   }
 
   /*----------------------------------------- FAB ----------------------------------------*/
