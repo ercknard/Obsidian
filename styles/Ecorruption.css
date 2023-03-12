@@ -699,12 +699,14 @@ header {
 h1.cryptech-info {
   font-style: italic;
   font-size: 3rem;
+  padding: 0 1rem;
   filter: drop-shadow(20px 10px 5px rgba(0,0,0,.5));
 }
 
 p.cryptech-info {
   -webkit-text-stroke: .1px black;
   font-size: 1.2rem;
+  padding: 0 1rem;
 }
 
 .typed-text {
