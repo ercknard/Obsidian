@@ -726,7 +726,7 @@ header {
       display: flex;
       justify-content: center;
       align-items: normal;
-      min-height: none;
+      min-height: auto;
       padding: 0;
       flex-direction: column-reverse;
     }
