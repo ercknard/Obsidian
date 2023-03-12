@@ -26,7 +26,11 @@ html {
 
  .space {
   display: none;
-  padding: 5rem;
+  padding: 6rem;
+ }
+
+ .break {
+  display: none;
  }
 
  @media (max-width: 1200px) {
@@ -48,7 +52,13 @@ html {
   display: block;
   padding: 5rem;
  }
+
+ .break {
+  display: block;
+ }
+
 }
+
 
 /*----------------------------------------- LOADER ----------------------------------------*/
 
@@ -261,12 +271,6 @@ background-image: url(/images/bgs/bg-main-scifi.webp);
     border-bottom: none;
   }
 
-  @media (max-width: 768px) {
-    .footer-icon {
-        display: none;
-   }
-  }
-
 @-webkit-keyframes loader-icon {
     0% { transform: translateY(0); filter: drop-shadow(1px 1px 10px rgba(255,255,255,0.25)) brightness(110%);}
     100% { transform: translateY(-1px); filter: drop-shadow(1px 1px 5px rgba(255,255,255,0.5))}
@@ -302,6 +306,19 @@ background-image: url(/images/bgs/bg-main-scifi.webp);
   transition: 0.5s;
 }
 
+@media (max-width: 768px) {
+  .main-footer {
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+      padding-top: 15px;
+      padding-bottom: 15px;
+      position: absolute;
+      width: 100%;
+      bottom: auto;
+  }
+  .footer-icon {
+      display: none;
+ }
+}
 /*----------------------------------------- HEADER ----------------------------------------*/
 
 header {
@@ -320,6 +337,10 @@ header {
 
 .index-navigation {
   background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0));
+}
+
+.index-navigation-mobile {
+  display: none;
 }
 
 .navigation-list {
