@@ -1,44 +1,54 @@
 @font-face {
-    font-family: Minecraftmainfont;
-    src: url(/fonts/MinecraftRegular-Bmg3.otf);
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  font-family: Minecraftmainfont;
+  src: url(/fonts/MinecraftRegular-Bmg3.otf);
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Minecraftmainfont, Garamond, serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #fff;
+}
+
+#particles-js{ 
+  position:fixed; 
+  width: 100%; 
+  height: 100%;
+  color: #fff;
+  z-index: -1;
+}
+
+ .space {
+  display: none;
+  padding: 5rem;
+ }
+
+ @media (max-width: 1200px) {
   html {
-    font-family: Minecraftmainfont, Garamond, serif;
-    font-size: 1rem;
+    font-size: .85rem;
     font-weight: normal;
     color: #fff;
-  }
+ }
+}
 
-  @media (max-width: 1200px) {
-    html {
-      font-size: .85rem;
-      font-weight: normal;
-      color: #fff;
-   }
-  }
+@media (max-width: 768px) {
+  html {
+    font-size: .7rem;
+    font-weight: normal;
+    color: #fff;
+ }
 
-  @media (max-width: 768px) {
-    html {
-      font-size: .7rem;
-      font-weight: normal;
-      color: #fff;
-   }
-  }
-
-  #particles-js{ 
-    position:fixed; 
-    width: 100%; 
-    height: 100%;
-    color: blue;
-    z-index: -1;
-  } 
+ .space {
+  display: block;
+  padding: 5rem;
+ }
+}
 
   /*----------------------------------------- LOADER ----------------------------------------*/
 

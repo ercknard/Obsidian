@@ -16,7 +16,20 @@ html {
   color: #fff;
 }
 
-@media (max-width: 1200px) {
+#particles-js{ 
+  position:fixed; 
+  width: 100%; 
+  height: 100%;
+  color: #fff;
+  z-index: -1;
+}
+
+ .space {
+  display: none;
+  padding: 5rem;
+ }
+
+ @media (max-width: 1200px) {
   html {
     font-size: .85rem;
     font-weight: normal;
@@ -30,15 +43,12 @@ html {
     font-weight: normal;
     color: #fff;
  }
-}
 
-#particles-js{ 
-  position:fixed; 
-  width: 100%; 
-  height: 100%;
-  color: #fff;
-  z-index: -1;
-} 
+ .space {
+  display: block;
+  padding: 5rem;
+ }
+}
 
 /*----------------------------------------- LOADER ----------------------------------------*/
 
