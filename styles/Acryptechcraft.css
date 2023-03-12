@@ -829,7 +829,7 @@ header {
 .floating-container:hover {
   display: flex;
   align-items: center;
-  min-height: 90vh;
+  min-height: 50vh;
 }
 
 @keyframes shakess {
@@ -930,17 +930,10 @@ header {
   vertical-align: middle;
 }
 
-@media (max-height: 768px) {
-
+@media (max-width: 1900px) {
   .floating-container:hover {
-    min-height: 50vh;
-  }
-
-  .image-selection-fab {
-    width: 50px;
-  }
-
-  .floating-container .float-element {
-    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
   }
 }
