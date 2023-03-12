@@ -52,44 +52,39 @@
    </header>
 
    <header class="index-navigation-mobile">
-
-      <div class="window">
-         <div class="header">
-           <div class="burger-container">
-             <div id="burger">
-               <div class="bar topBar"></div>
-               <div class="bar btmBar"></div>
-             </div>
-           </div>
-           <div class="icon icon-apple"></div>
-           <ul id="home-active-btn" class="menu">
-            <li>
-               <div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">HOME</div>
-            </li>
-            <li>
-               <div class="nav-buttons" onclick="openTab('Play')" style="display: inline-block;">SERVERS</div>
-            </li>
-            <li>
-             <div class="nav-buttons" onclick="openTab('Ages')" style="display: inline-block;">AGES</div>
-           </li>
-            <li>
-             <a href="https://wiki.cryptechcraft.xyz" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">GAMEGUIDE</div></a>
-           </li>
-            <li>
-             <a href="https://wallet.cryptechcraft.xyz/" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">WALLET</div></a>
-          </li>
-            <li>
-               <div class="nav-buttons" onclick="openTab('Support')" style="display: inline-block;">SUPPORT</div>
-            </li>
-            <li>
-             <div class="nav-buttons" onclick="openTab('About')" style="display: inline-block;">ABOUT</div>
-           </li>
-            <li>
-               <div class="nav-buttons" onclick="openTab('Donate')" style="display: inline-block;">DONATE</div>
-            </li>
-           </ul>
-           <div class="shop icon icon-bag"></div>
-         </div>
+      <span class="checkbox-container">
+         <input class="checkbox-trigger" type="checkbox"  />
+         <span class="menu-content">
+            <ul id="home-active-btn" class="navigation-list">
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">HOME</div>
+               </li>
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Play')" style="display: inline-block;">SERVERS</div>
+               </li>
+               <li>
+                <div class="nav-buttons" onclick="openTab('Ages')" style="display: inline-block;">AGES</div>
+              </li>
+               <li>
+                <a href="https://wiki.cryptechcraft.xyz" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">GAMEGUIDE</div></a>
+              </li>
+               <img class="index-logo" src="images/icons/pack.png">
+               <li>
+                <a href="https://wallet.cryptechcraft.xyz/" target="_blank"><div class="nav-buttons" onclick="openTab('Home')" style="display: inline-block;">WALLET</div></a>
+             </li>
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Support')" style="display: inline-block;">SUPPORT</div>
+               </li>
+               <li>
+                <div class="nav-buttons" onclick="openTab('About')" style="display: inline-block;">ABOUT</div>
+              </li>
+               <li>
+                  <div class="nav-buttons" onclick="openTab('Donate')" style="display: inline-block;">DONATE</div>
+               </li>
+            </ul>
+           <span class="hamburger-menu"></span>
+         </span>
+       </span>
 </header>
    <body class="bg-landpage">
       <div id="particles-js">
