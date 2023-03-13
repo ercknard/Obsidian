@@ -47,7 +47,7 @@ html {
 	padding: 1rem;
 	filter: drop-shadow(20px 10px 5px rgba(0, 0, 0, 1));
 	border: 2px solid white;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	border-image:
 		linear-gradient(to right, rgba(0, 0, 0, 0),
 			white,
@@ -1136,10 +1136,10 @@ p.cryptech-info {
 }
 
 .story-text-card {
-	padding: .5rem;
+	padding: .75rem;
 	color: white;
 	text-align: justify;
-	text-indent: 2rem;
+	text-indent: 3rem;
 	font-size: 1.2rem;
 }
 
@@ -1148,6 +1148,7 @@ p.cryptech-info {
 	justify-content: center;
 	align-items: center;
 	margin: 0 2rem;
+	text-align: center;
 }
 
 .story-bg {
@@ -1163,4 +1164,16 @@ p.cryptech-info {
 .a-button {
 	color: #fff;
 	text-decoration: none;
+}
+
+.story-title {
+	font-size: 1.8rem;
+}
+
+.structure {
+	width: 25%;
+}
+
+.horizontal-scroll {
+	overflow-x: scroll;
 }
