@@ -38,14 +38,14 @@ var btnscoin = btnContainercoin.getElementsByClassName("coin-buttons");
 // Loop through the buttons and add the active class to the current/clicked button
 for (var i = 0; i < btnscoin.length; i++) {
   btnscoin[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("activecoin");
+    var current = document.getElementsByClassName("active-coin");
 
     // If there's no active class
     if (current.length > 0) {
-      current[0].className = current[0].className.replace(" activecoin", "");
+      current[0].className = current[0].className.replace(" active-coin", "");
     }
 
     // Add the active class to the current/clicked button
-    this.className += " activecoin";
+    this.className += " active-coin";
   });
 }
