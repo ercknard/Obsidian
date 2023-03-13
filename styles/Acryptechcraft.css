@@ -1516,7 +1516,7 @@ p.cryptech-info {
 			white, 
 			rgba(0, 0, 0, 0)
 		  ) 1;
-		width: 35%;
+		width: 40%;
 		height: 250px;
 		clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
 		background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,.3));
@@ -1532,7 +1532,7 @@ p.cryptech-info {
 	  }
 
 	  .coin-banner:hover {
-		width: 35%;
+		width: 40%;
 		height: 250px;
 	  }
 
@@ -1543,5 +1543,9 @@ p.cryptech-info {
 	  .coin-mobile {
 		display: flex;
 		justify-content: space-evenly;
+	  }
+
+	  .coin-bg {
+		margin-bottom: 4rem;
 	  }
 }
