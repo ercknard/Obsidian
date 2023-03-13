@@ -190,3 +190,81 @@ function showSlidemacerator(n) {
   }
   slides[slideIndexmacerator-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------COMPRESSOR-----------------------------------------------------------------//
+
+var slideIndexcompressor = 0;
+carouselcompressor();
+
+function carouselcompressor() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-compressor");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexcompressor++;
+  if (slideIndexcompressor > x.length) {slideIndexcompressor = 1} 
+  x[slideIndexcompressor-1].style.display = "block"; 
+  setTimeout(carouselcompressor, 15000); 
+}
+
+// Next/previous controls
+function plusSlidescompressor(n) {
+  showSlidecompressor(slideIndexcompressor += n);
+}
+
+// Thumbnail image controls
+function currentSlidecompressor(n) {
+  showSlidecompressor(slideIndexcompressor = n);
+}
+
+function showSlidecompressor(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-compressor");
+  if (n > slides.length) {slideIndexcompressor = 1}
+  if (n < 1) {slideIndexcompressor = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexcompressor-1].style.display = "block";
+}
+
+//----------------------------------------------------------------------SMELTERY-----------------------------------------------------------------//
+
+var slideIndexsmeltery = 0;
+carouselsmeltery();
+
+function carouselsmeltery() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-smeltery");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexsmeltery++;
+  if (slideIndexsmeltery > x.length) {slideIndexsmeltery = 1} 
+  x[slideIndexsmeltery-1].style.display = "block"; 
+  setTimeout(carouselsmeltery, 15000); 
+}
+
+// Next/previous controls
+function plusSlidessmeltery(n) {
+  showSlidesmeltery(slideIndexsmeltery += n);
+}
+
+// Thumbnail image controls
+function currentSlidesmeltery(n) {
+  showSlidesmeltery(slideIndexsmeltery = n);
+}
+
+function showSlidesmeltery(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-smeltery");
+  if (n > slides.length) {slideIndexsmeltery = 1}
+  if (n < 1) {slideIndexsmeltery = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexsmeltery-1].style.display = "block";
+}
