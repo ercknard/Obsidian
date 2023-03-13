@@ -1168,12 +1168,12 @@ p.cryptech-info {
 
 .story-title {
 	font-size: 1.8rem;
+	justify-content: left;
 }
 
 .structure {
-	width: 25%;
+	width: 30%;
 }
 
 .horizontal-scroll {
-	overflow-x: scroll;
 }
