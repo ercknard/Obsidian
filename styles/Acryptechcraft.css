@@ -1175,6 +1175,16 @@ p.cryptech-info {
 }
 
 .story-bg {
+	background-image: url(/images/bgs/story/bg-main-cryptech.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	z-index: -1;
+}
+
+.story-bg-1 {
 	background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
 	background-attachment: fixed;
 	background-position: center;
@@ -1196,4 +1206,15 @@ p.cryptech-info {
 
 .structure {
 	width: 30%;
+}
+
+.story-controls {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+
+.story-btn-control {
+	background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+	border: .5px solid white;
 }
