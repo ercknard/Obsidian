@@ -1284,4 +1284,8 @@ p.cryptech-info {
 		margin-top: 2rem;
 		margin-bottom: 10rem;
 	}
+	.structure {
+		width: 80%;
+		flex-direction: column;
+	}
 }
