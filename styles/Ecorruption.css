@@ -1413,6 +1413,7 @@ p.cryptech-info {
 	padding: 10px;
 	background-color: black;
 	margin-top: 20px;
+	margin-bottom: 4rem;
   }
 
   .active-coin {
@@ -1427,6 +1428,13 @@ p.cryptech-info {
   }
 
   @media (max-width: 1900px) {
+	.coin-bg {
+		border: 1px solid white;
+		padding: 10px;
+		background-color: black;
+		margin-top: 20px;
+		margin-bottom: 13rem;
+	  }
 
 }
 
