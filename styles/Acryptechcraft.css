@@ -16,6 +16,12 @@ html {
 	color: #fff;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
 #particles-js {
 	position: absolute;
 	width: 100%;
@@ -895,7 +901,7 @@ p.cryptech-info {
     rgba(255, 255, 255, 1)) 1;
   border-left: none;
   clip-path: polygon(100% 0, 100% 100%, 50% 100%, 60% 50%, 50% 0);
-  margin-bottom: 1.2rem;
+  margin-bottom: 0rem;
 }
 
 @media (max-width: 768px) {
@@ -1212,6 +1218,7 @@ p.cryptech-info {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .story-btn-control {

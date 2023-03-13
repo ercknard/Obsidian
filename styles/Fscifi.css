@@ -16,6 +16,12 @@ html {
 	color: #fff;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
 #particles-js {
 	position: fixed;
 	width: 100%;
