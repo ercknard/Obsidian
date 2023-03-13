@@ -1093,3 +1093,20 @@ p.cryptech-info {
 		min-height: 90vh;
 	}
 }
+
+/*----------------------------------------- Story ----------------------------------------*/
+
+.story-text-card {
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 2rem;
+	text-align: justify;
+	backdrop-filter: blur(14px);
+    background-color: transparent;
+}
+
+.story-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
