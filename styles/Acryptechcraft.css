@@ -114,6 +114,10 @@ body::-webkit-scrollbar {
 		display: none;
 	}
 
+	#particles-js {
+		display: none;
+	}
+
 }
 
 /*----------------------------------------- LOADER ----------------------------------------*/
