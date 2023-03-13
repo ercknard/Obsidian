@@ -1284,6 +1284,10 @@ p.cryptech-info {
 		margin-top: 2rem;
 		margin-bottom: 10rem;
 	}
+	.story-title {
+		font-size: 1.5rem;
+		justify-content: left;
+	}
 	.structure {
 		width: 80%;
 		flex-direction: column;
