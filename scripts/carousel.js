@@ -268,3 +268,120 @@ function showSlidesmeltery(n) {
   }
   slides[slideIndexsmeltery-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------FORGE-----------------------------------------------------------------//
+
+var slideIndexforge = 0;
+carouselforge();
+
+function carouselforge() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-forge");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexforge++;
+  if (slideIndexforge > x.length) {slideIndexforge = 1} 
+  x[slideIndexforge-1].style.display = "block"; 
+  setTimeout(carouselforge, 15000); 
+}
+
+// Next/previous controls
+function plusSlidesforge(n) {
+  showSlideforge(slideIndexforge += n);
+}
+
+// Thumbnail image controls
+function currentSlideforge(n) {
+  showSlideforge(slideIndexforge = n);
+}
+
+function showSlideforge(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-forge");
+  if (n > slides.length) {slideIndexforge = 1}
+  if (n < 1) {slideIndexforge = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexforge-1].style.display = "block";
+}
+
+//----------------------------------------------------------------------FARM-----------------------------------------------------------------//
+
+var slideIndexfarm = 0;
+carouselfarm();
+
+function carouselfarm() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-farm");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexfarm++;
+  if (slideIndexfarm > x.length) {slideIndexfarm = 1} 
+  x[slideIndexfarm-1].style.display = "block"; 
+  setTimeout(carouselfarm, 15000); 
+}
+
+// Next/previous controls
+function plusSlidesfarm(n) {
+  showSlidefarm(slideIndexfarm += n);
+}
+
+// Thumbnail image controls
+function currentSlidefarm(n) {
+  showSlidefarm(slideIndexfarm = n);
+}
+
+function showSlidefarm(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-farm");
+  if (n > slides.length) {slideIndexfarm = 1}
+  if (n < 1) {slideIndexfarm = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexfarm-1].style.display = "block";
+}
+
+//----------------------------------------------------------------------KELP-----------------------------------------------------------------//
+
+var slideIndexkelp = 0;
+carouselkelp();
+
+function carouselkelp() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-kelp");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexkelp++;
+  if (slideIndexkelp > x.length) {slideIndexkelp = 1} 
+  x[slideIndexkelp-1].style.display = "block"; 
+  setTimeout(carouselkelp, 15000); 
+}
+
+// Next/previous controls
+function plusSlideskelp(n) {
+  showSlidekelp(slideIndexkelp += n);
+}
+
+// Thumbnail image controls
+function currentSlidekelp(n) {
+  showSlidekelp(slideIndexkelp = n);
+}
+
+function showSlidekelp(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-kelp");
+  if (n > slides.length) {slideIndexkelp = 1}
+  if (n < 1) {slideIndexkelp = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexkelp-1].style.display = "block";
+}
