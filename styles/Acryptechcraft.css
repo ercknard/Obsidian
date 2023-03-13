@@ -17,7 +17,7 @@ html {
 }
 
 #particles-js {
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	color: #fff;
@@ -1096,17 +1096,33 @@ p.cryptech-info {
 
 /*----------------------------------------- Story ----------------------------------------*/
 
-.story-text-card {
+.story-group {
 	border: 1px solid white;
-	border-radius: 3px;
+	border-radius: 1px;
+	background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+	filter: drop-shadow(3px 3px 1px black);
 	padding: 2rem;
+}
+
+.story-text-card {
+	padding: .5rem;
+	color: white;
 	text-align: justify;
-	backdrop-filter: blur(14px);
-    background-color: transparent;
+	text-indent: 2rem;
+	font-size: 1.3rem;
 }
 
 .story-flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.story-bag {
+	background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
 }
