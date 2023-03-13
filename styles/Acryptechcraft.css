@@ -21,7 +21,6 @@ html {
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	z-index: -1;
 }
 
 .space {
@@ -1116,13 +1115,17 @@ p.cryptech-info {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 5rem;
+	margin: 0 2rem;
 }
 
-.story-bag {
+.story-bg {
 	background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100vh;
+	position: relative;
+	z-index: -2;
 }
