@@ -313,12 +313,13 @@ img.vert-move-6 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	animation-name: bg-animation;
+	animation-name: bg-animation-dark;
 	animation-duration: 15s;
 	animation-iteration-count: infinite;
+	min-height: 100vh;
 }
 
-@keyframes bg-animation {
+@keyframes bg-animation-dark {
 	0% {
 		background-image: url(/images/bgs/story/bg-main-cryptech.webp);
 	}

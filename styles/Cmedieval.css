@@ -316,6 +316,7 @@ img.vert-move-6 {
 	animation-name: bg-animation;
 	animation-duration: 15s;
 	animation-iteration-count: infinite;
+	min-height: 100vh;
 }
 
 @keyframes bg-animation {
