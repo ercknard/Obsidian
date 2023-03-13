@@ -502,3 +502,81 @@ function showSlideminer(n) {
   }
   slides[slideIndexminer-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------MARKET-----------------------------------------------------------------//
+
+var slideIndexmarket = 0;
+carouselmarket();
+
+function carouselmarket() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-market");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexmarket++;
+  if (slideIndexmarket > x.length) {slideIndexmarket = 1} 
+  x[slideIndexmarket-1].style.display = "block"; 
+  setTimeout(carouselmarket, 15000); 
+}
+
+// Next/previous controls
+function plusSlidesmarket(n) {
+  showSlidemarket(slideIndexmarket += n);
+}
+
+// Thumbnail image controls
+function currentSlidemarket(n) {
+  showSlidemarket(slideIndexmarket = n);
+}
+
+function showSlidemarket(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-market");
+  if (n > slides.length) {slideIndexmarket = 1}
+  if (n < 1) {slideIndexmarket = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexmarket-1].style.display = "block";
+}
+
+//----------------------------------------------------------------------WALLET-----------------------------------------------------------------//
+
+var slideIndexwallet = 0;
+carouselwallet();
+
+function carouselwallet() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-wallet");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexwallet++;
+  if (slideIndexwallet > x.length) {slideIndexwallet = 1} 
+  x[slideIndexwallet-1].style.display = "block"; 
+  setTimeout(carouselwallet, 15000); 
+}
+
+// Next/previous controls
+function plusSlideswallet(n) {
+  showSlidewallet(slideIndexwallet += n);
+}
+
+// Thumbnail image controls
+function currentSlidewallet(n) {
+  showSlidewallet(slideIndexwallet = n);
+}
+
+function showSlidewallet(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-wallet");
+  if (n > slides.length) {slideIndexwallet = 1}
+  if (n < 1) {slideIndexwallet = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexwallet-1].style.display = "block";
+}
