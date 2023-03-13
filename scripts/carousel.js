@@ -463,3 +463,42 @@ function showSlidesmokehouse(n) {
   }
   slides[slideIndexsmokehouse-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------MINER-----------------------------------------------------------------//
+
+var slideIndexminer = 0;
+carouselminer();
+
+function carouselminer() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-miner");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexminer++;
+  if (slideIndexminer > x.length) {slideIndexminer = 1} 
+  x[slideIndexminer-1].style.display = "block"; 
+  setTimeout(carouselminer, 15000); 
+}
+
+// Next/previous controls
+function plusSlidesminer(n) {
+  showSlideminer(slideIndexminer += n);
+}
+
+// Thumbnail image controls
+function currentSlideminer(n) {
+  showSlideminer(slideIndexminer = n);
+}
+
+function showSlideminer(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-miner");
+  if (n > slides.length) {slideIndexminer = 1}
+  if (n < 1) {slideIndexminer = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexminer-1].style.display = "block";
+}
