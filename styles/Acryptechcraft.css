@@ -1289,7 +1289,7 @@ p.cryptech-info {
 		justify-content: left;
 	}
 	.structure {
-		width: 80%;
+		width: 100%;
 		flex-direction: column;
 	}
 }

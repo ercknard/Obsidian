@@ -1125,3 +1125,145 @@ p.cryptech-info {
 		min-height: 90vh;
 	}
 }
+
+/*----------------------------------------- Story ----------------------------------------*/
+
+.story-group {
+	border: 3px solid white;
+	background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+	filter: drop-shadow(5px 5px 1px black);
+	padding: 2rem;
+	border-image:
+	linear-gradient(to right, rgba(255, 255, 255, .1),
+		white,
+		rgba(255, 255, 255, .1)) 1;
+	position: relative;
+	z-index: 100;
+}
+
+.story-text-card {
+	padding: .75rem;
+	color: white;
+	text-align: justify;
+	text-indent: 3rem;
+	font-size: 1.2rem;
+}
+
+.story-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 2rem;
+	text-align: center;
+}
+
+.story-bg {
+	background-image: url(/images/bgs/story/bg-main-scifi.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	z-index: -1;
+}
+
+.story-bg-1 {
+	background-image: url(/images/bgs/story/bg-sub-scifi.webp);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	z-index: -1;
+}
+
+.a-button {
+	color: #fff;
+	text-decoration: none;
+}
+
+.story-title {
+	font-size: 1.8rem;
+	justify-content: left;
+}
+
+.structure {
+	width: 30%;
+}
+
+.story-controls {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+.story-btn-control {
+	background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+	border: .5px solid white;
+}
+
+.structure-1 {
+	width: 80%;
+}
+
+@media (max-width: 1900px) {
+
+	.story-group {
+		border: 2px solid white;
+		background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+		filter: drop-shadow(5px 5px 1px black);
+		padding: 1.5rem;
+		border-image:
+		linear-gradient(to right, rgba(255, 255, 255, .1),
+			white,
+			rgba(255, 255, 255, .1)) 1;
+		position: relative;
+		z-index: 100;
+	}
+	
+	.story-text-card {
+		padding: .75rem;
+		color: white;
+		text-align: justify;
+		text-indent: 3rem;
+		font-size: 1rem;
+	}
+	
+	.story-title {
+		font-size: 1.2rem;
+		justify-content: left;
+	}
+	
+	.structure {
+		width: 30%;
+	}
+
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.story-controls {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 2rem;
+		margin-bottom: 10rem;
+	}
+	.story-title {
+		font-size: 1.5rem;
+		justify-content: left;
+	}
+	.structure {
+		width: 100%;
+		flex-direction: column;
+	}
+}
