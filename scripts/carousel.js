@@ -736,3 +736,38 @@ function showSliderosenbridge(n) {
   }
   slides[slideIndexrosenbridge-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------DONATE-----------------------------------------------------------------//
+
+var slideIndexcoins = 0;
+carouselcoins();
+
+function carouselcoins() {
+    var i;
+    var x = document.getElementsByClassName("mySlides-coin");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+  }
+  
+  // Next/previous controls
+  function plusSlidescoins(n) {
+    showSlidecoins(slideIndexcoins += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlidecoins(n) {
+    showSlidecoins(slideIndexcoins = n);
+  }
+  
+  function showSlidecoins(n) {
+    autoScroll = false;
+    var i;
+    var slides = document.getElementsByClassName("mySlides-coin");
+    if (n > slides.length) {slideIndexcoins = 1}
+    if (n < 1) {slideIndexcoins = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndexcoins-1].style.display = "block";
+  }

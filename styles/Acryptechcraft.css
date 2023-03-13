@@ -308,6 +308,42 @@ img.vert-move-6 {
 	}
 }
 
+.tab-bg {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation-name: bg-animation;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bg-animation {
+	0% {
+		background-image: url(/images/bgs/story/bg-main-cryptech.webp);
+	}
+
+	20% {
+		background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
+	}
+
+	40% {
+		background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
+	}
+
+	60% {
+		background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
+	}
+
+	80% {
+		background-image: url(/images/bgs/story/bg-main-cryptech.webp);
+	}
+
+	100% {
+		background-image: url(/images/bgs/story/bg-main-cryptech.webp);
+	}
+}
+
 /*----------------------------------------- FOOTER ----------------------------------------*/
 
 .main-footer {
@@ -1295,3 +1331,92 @@ p.cryptech-info {
 		flex-direction: column;
 	}
 }
+
+/*----------------------------------------- Donate ----------------------------------------*/
+
+.donate-prompt {
+	margin: 1rem;
+	text-align: center;
+}
+
+.to-center {
+	text-align: center;
+}
+
+.coin-center {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 300px;
+  }
+
+  .coin-name {
+	font-weight: bold;
+	font-size: 1.2rem;
+	filter: drop-shadow(1px 1px 3px rgba(0,0,0,1));
+  }
+
+  .coin-banner {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid;
+	border-image: 
+	  linear-gradient(
+		to bottom, 
+		white, 
+		rgba(0, 0, 0, 0)
+	  ) 1;
+	width: 13%;
+	height: 250px;
+	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,.3));
+	transition: .5s;
+  }
+
+  .coin-banner:hover {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid;
+	border-image: 
+	  linear-gradient(
+		to bottom, 
+		white, 
+		rgba(0, 0, 0, 0)
+	  ) 1;
+	width: 13%;
+	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
+	background-image: linear-gradient(to bottom, rgba(36,46,75,1), rgba(255,255,255,.3));
+	transition: .5s;
+	-webkit-animation: squid .85s infinite  alternate;
+  	animation: squid .85s infinite alternate;
+  	height: 300px;
+  }
+
+  .coin-profile{
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 100%;
+	border-left: none;
+	border-bottom: none;
+	width: 90px;
+	background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,0));
+	margin-bottom: 10px;
+	margin-top: 10px;
+	filter: drop-shadow(20px 10px 5px rgba(0,0,0,.5))
+  }
+
+  .coin-bg {
+	border: 1px solid white;
+	padding: 10px;
+	background-color: black;
+	margin-top: 20px;
+  }
+
+  .active-coin {
+	background-image: linear-gradient(to bottom, rgba(36,46,75,1), rgba(255,255,255,.3));
+	-webkit-animation: squid .85s infinite  alternate;
+	animation: squid .85s infinite alternate;
+	height: 300px;
+  }

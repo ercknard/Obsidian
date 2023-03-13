@@ -308,6 +308,42 @@ img.vert-move-6 {
 	}
 }
 
+.tab-bg {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation-name: bg-animation;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bg-animation {
+	0% {
+		background-image: url(/images/bgs/story/bg-main-medieval.webp);
+	}
+
+	20% {
+		background-image: url(/images/bgs/story/bg-sub-medieval.webp);
+	}
+
+	40% {
+		background-image: url(/images/bgs/story/bg-sub-medieval.webp);
+	}
+
+	60% {
+		background-image: url(/images/bgs/story/bg-sub-medieval.webp);
+	}
+
+	80% {
+		background-image: url(/images/bgs/story/bg-main-medieval.webp);
+	}
+
+	100% {
+		background-image: url(/images/bgs/story/bg-main-medieval.webp);
+	}
+}
+
 /*----------------------------------------- FOOTER ----------------------------------------*/
 
 .main-footer {
