@@ -1361,7 +1361,7 @@ p.cryptech-info {
 	display: block;
 	text-align: center;
 	padding: 10px;
-	border: 3px solid;
+	border: 1px solid;
 	border-image: 
 	  linear-gradient(
 		to bottom, 
@@ -1371,7 +1371,7 @@ p.cryptech-info {
 	width: 13%;
 	height: 250px;
 	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,.3));
+	background-image: linear-gradient(to bottom, rgba(255,255,255,.2), rgba(0,0,0,.3), rgba(255,255,255,.2));
 	transition: .5s;
   }
 
@@ -1379,7 +1379,7 @@ p.cryptech-info {
 	display: block;
 	text-align: center;
 	padding: 10px;
-	border: 3px solid;
+	border: 1px solid;
 	border-image: 
 	  linear-gradient(
 		to bottom, 
@@ -1447,7 +1447,7 @@ p.cryptech-info {
 		display: block;
 		text-align: center;
 		padding: 10px;
-		border: 3px solid;
+		border: 1px solid;
 		border-image: 
 		  linear-gradient(
 			to bottom, 
@@ -1482,7 +1482,7 @@ p.cryptech-info {
 		display: block;
 		text-align: center;
 		padding: 10px;
-		border: 3px solid;
+		border: 1px solid;
 		border-image: 
 		  linear-gradient(
 			to bottom, 
