@@ -777,9 +777,7 @@ header {
 .slideshow-container {
 	width: auto;
 	margin: auto;
-	display: flex;
-	justify-content: center;
-	-webkit-box-reflect: none;
+	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
 }
 
 /* Hide the images by default */
