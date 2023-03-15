@@ -1541,13 +1541,17 @@ p.cryptech-info {
 
 .about-flex {
 	display: flex;
-	justify-content: center;
+	gap: 10px;
 	align-items: center;
 }
 
 .about-prompt {
 	text-align: justify;
 	text-indent: 2rem;
+}
+
+.guns-about {
+	text-align: center;
 }
 
 @media (max-width: 768px) {
