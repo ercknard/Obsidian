@@ -1237,6 +1237,18 @@ p.cryptech-info {
 	z-index: -1;
 }
 
+.per-story-title {
+
+}
+
+.read-story {
+	cursor: pointer;
+}
+
+.read-story:hover {
+	transform: translateY(3px);
+}
+
 .a-button {
 	color: #fff;
 	text-decoration: none;
@@ -1256,7 +1268,10 @@ p.cryptech-info {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 2rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	background: linear-gradient(to left,rgba(255,255,255,.2),rgba(0,212,255,0));
+	border-right: 2px solid white;
 }
 
 .story-btn-control {
