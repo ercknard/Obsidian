@@ -1538,8 +1538,10 @@ p.cryptech-info {
 
 .about-flex {
 	display: flex;
-	gap: 10px;
 	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .about-prompt {
