@@ -1128,6 +1128,7 @@ p.cryptech-info {
 	padding: 2rem;
 	position: relative;
 	z-index: 100;
+	margin: 0 3rem;
 }
 
 .story-text-card {
@@ -1258,7 +1259,7 @@ p.cryptech-info {
 		font-size: 1.5rem;
 		justify-content: left;
 	}
-	.structure {
+	.structure-1 {
 		width: 100%;
 		flex-direction: column;
 	}
