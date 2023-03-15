@@ -41,7 +41,7 @@
                </a>
             </li>
             <li>
-               <div class="nav-buttons" onclick="openTab('Support')" style="display: inline-block;">SUPPORT</div>
+               <div class="nav-buttons" onclick="openTab('Support')" style="display: inline-block;">TEAM</div>
             </li>
             <li>
                <div class="nav-buttons" onclick="openTab('About')" style="display: inline-block;">ABOUT</div>
@@ -80,7 +80,7 @@
                   </a>
                </li>
                <li>
-                  <div class="nav-buttons-mobile" onclick="openTab('Support')" style="display: inline-block;">SUPPORT</div>
+                  <div class="nav-buttons-mobile" onclick="openTab('Support')" style="display: inline-block;">TEAM</div>
                </li>
                <li>
                   <div class="nav-buttons-mobile" onclick="openTab('About')" style="display: inline-block;">ABOUT</div>
@@ -177,32 +177,33 @@
             <h2 class="page-name-mobile text-motion-index"> CRYPTECHCRAFT LEADS</h2>
             <h2 class="page-name text-motion-index"> CRYPTECHCRAFT LEADS </h2>
             <br>
+            <div id="leads-active-btn">
             <div class="coin-about">
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(1)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="/images/team/squid-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">Squidicuz</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(2)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/seqsee-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">SeqSee</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(3)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/vanikoro-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">Vanikoro</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(4)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/kyuhi-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">Kyuhi</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(5)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/naenshiku-head.webp"> 
                   <hr>
                   <br> 
@@ -214,42 +215,79 @@
                <h2 class="page-name text-motion-index"> CRYPTECHCRAFT STAFFS </h2>
                <br>
                <div class="coin-about">
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(6)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="/images/team/anormalstick-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">ANormalStick</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(7)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/corvo-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">Corvo</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(8)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/ferbog05-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">Ferbog05</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(9)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/matador-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">Matador</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(10)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/demil-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">Demil</p>
                </div>
-               <div class="coin-banner coin-buttons">
+               <div onclick="currentSlideleads(11)" class="coin-banner leads-buttons">
                   <img class="coin-profile" src="images/team/tonic-head.webp"> 
                   <hr>
                   <br> 
                   <p class="coin-name">ANormalTonic</p>
                </div>
+               </div>
+               </div>
+               <br>
+               <div class="slideshow-container-about">
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/squidNAMEs.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/seqseeNAMEs.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/vanikoroNAMEs.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/kyuhiNAMEs.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/naenshikuNAMEs.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/anormalstick.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/corvo.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/ferbog05.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/matador.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/demil.png">
+                  </div>
+                  <div class="mySlides-leads fade">
+                     <img class="squid structure" src="images/team/tonic.png">
+                  </div>
                </div>
          </section>
       </div>

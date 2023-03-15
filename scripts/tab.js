@@ -49,3 +49,24 @@ for (var i = 0; i < btnscoin.length; i++) {
     this.className += " active-coin";
   });
 }
+
+
+var btnContainerleads = document.getElementById("leads-active-btn");
+
+// Get all buttons with class="btn" inside the container
+var btnsleads = btnContainerleads.getElementsByClassName("leads-buttons");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btnsleads.length; i++) {
+btnsleads[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-leads");
+
+  // If there's no active class
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active-leads", "");
+  }
+
+  // Add the active class to the current/clicked button
+  this.className += " active-leads";
+});
+}

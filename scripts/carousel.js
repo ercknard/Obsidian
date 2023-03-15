@@ -927,3 +927,41 @@ function showSlidefeatures(n) {
   }
   slides[slideIndexfeatures-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------leads-----------------------------------------------------------------//
+
+var slideIndexleads = 0;
+carouselleads();
+
+function carouselleads() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-leads");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexleads++;
+  if (slideIndexleads > x.length) {slideIndexleads = 1} 
+  x[slideIndexleads-1].style.display = "block"; 
+}
+
+// Next/previous controls
+function plusSlidesleads(n) {
+  showSlideleads(slideIndexleads += n);
+}
+
+// Thumbnail image controls
+function currentSlideleads(n) {
+  showSlideleads(slideIndexleads = n);
+}
+
+function showSlideleads(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-leads");
+  if (n > slides.length) {slideIndexleads = 1}
+  if (n < 1) {slideIndexleads = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexleads-1].style.display = "block";
+}
