@@ -56,7 +56,7 @@ body::-webkit-scrollbar {
 	font-size: 1.5rem;
 	border-image:
 		linear-gradient(to right, rgba(0, 0, 0, 0),
-			white,
+		white,
 			rgba(0, 0, 0, 0)) 1;
 	clip-path: polygon(0 0, 100% 0, 70% 50%, 100% 100%, 0 100%, 30% 50%);
 }
@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 		font-size: 1.8rem;
 		border-image:
 			linear-gradient(to right, rgba(0, 0, 0, 0),
-				white,
+			white,
 				rgba(0, 0, 0, 0)) 1;
 	}
 
@@ -247,10 +247,10 @@ img.vert-move-6 {
 }
 
 .text-motion {
-	background: linear-gradient(90deg, #5B8FB9, #fff, #fff);
+	background: linear-gradient(90deg, rgb(120, 145, 178), #fff, #fff);
 	background-repeat: no-repeat;
 	background-size: 80%;
-	background-color: #5B8FB9;
+	background-color: white;
 	animation: text-motion 1.7s infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -430,7 +430,7 @@ img.vert-move-6 {
 }
 
 .text-motion-index {
-	background: linear-gradient(90deg, #5B8FB9, #fff, #fff);
+	background: linear-gradient(90deg, rgb(120, 145, 178), #fff, #fff);
 	background-repeat: no-repeat;
 	background-size: 80%;
 	background-color: #fff;
@@ -516,7 +516,7 @@ header {
 }
 
 .nav-buttons:hover {
-	background-image: linear-gradient(to top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(to top, rgb(120, 145, 178, .3), rgba(255, 255, 255, 0));
   transform: translateY(3px);
 }
 
@@ -528,7 +528,7 @@ header {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #fff;
+	background-color: rgb(120, 145, 178);
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }
@@ -539,7 +539,7 @@ header {
 }
 
 .active {
-	background-image: linear-gradient(to top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(to top, rgb(120, 145, 178, .3), rgba(255, 255, 255, 0));
 	border-bottom: 1px solid white;
 }
 
@@ -918,7 +918,7 @@ p.cryptech-info {
 }
 
 .typed-text {
-	color: wheat;
+	color: rgb(120, 145, 178);
 }
 
 .coin-on-main {
@@ -936,7 +936,7 @@ p.cryptech-info {
   padding: 1rem;
   font-size: 1.3rem;
   font-weight: bold;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to bottom, rgba(120, 145, 178, .1), rgba(255, 255, 255, 0));
   border: 1px solid white;
   border-image:
   linear-gradient(to right, rgba(0, 0, 0, 0),
@@ -1195,7 +1195,7 @@ p.cryptech-info {
 
 .story-group {
 	border: 1px solid white;
-	background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+	background: linear-gradient(to bottom,rgb(120, 145, 178, .2),rgba(0,212,255,0));
 	filter: drop-shadow(5px 5px 1px black);
 	padding: 2rem;
 	position: relative;
@@ -1272,12 +1272,12 @@ p.cryptech-info {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	padding: 1rem;
-	background: linear-gradient(to left,rgba(255,255,255,.2),rgba(0,212,255,0));
+	background: linear-gradient(to left,rgb(120, 145, 178,.2),rgba(0,212,255,0));
 	border-right: 2px solid white;
 }
 
 .story-btn-control {
-	background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+	background: linear-gradient(to bottom,rgb(120, 145, 178, .2),rgba(0,212,255,0));
 	border: .5px solid white;
 }
 
@@ -1290,7 +1290,7 @@ p.cryptech-info {
 
 	.story-group {
 		border: 1px solid white;
-		background: linear-gradient(to bottom,rgba(255,255,255,.2),rgba(0,212,255,0));
+		background: linear-gradient(to bottom,rgb(120, 145, 178, .2),rgba(0,212,255,0));
 		filter: drop-shadow(5px 5px 1px black);
 		padding: 2rem;
 		position: relative;
