@@ -1335,13 +1335,6 @@ p.cryptech-info {
 	.story-group {
 		margin: 0;
 	}
-
-	.story-controls {
-		display: flex;
-		justify-content: space-between;
-		margin-top: 2rem;
-		margin-bottom: 10rem;
-	}
 	.story-title {
 		font-size: 1.5rem;
 		justify-content: left;
