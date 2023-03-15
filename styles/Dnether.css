@@ -1572,4 +1572,13 @@ p.cryptech-info {
 	}
 
 }
+
+/*----------------------------------------- support ----------------------------------------*/
+
+.active-leads {
+	background-image: linear-gradient(to bottom, rgba(94, 24, 25,.5), rgba(255,255,255,.1));
+	-webkit-animation: squid .85s infinite  alternate;
+	animation: squid .85s infinite alternate;
+}
+
 /* color: rgb(94, 24, 25); */
