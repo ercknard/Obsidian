@@ -1532,4 +1532,45 @@ p.cryptech-info {
 	justify-content: center;
 }
 
+.coin-about {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.about-flex {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.about-prompt {
+	text-align: justify;
+	text-indent: 2rem;
+}
+
+.guns-about {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+
+	.coin-about{
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+
+	.about-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+}
+
 /* color: rgb(120, 145, 178); */
