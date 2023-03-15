@@ -1366,14 +1366,14 @@ p.cryptech-info {
   .coin-name {
 	font-weight: bold;
 	font-size: 1.2rem;
-	filter: drop-shadow(1px 1px 3px rgba(0,0,0,1));
+	filter: drop-shadow(5px 5px 1px rgba(0,0,0,1));
   }
 
   .coin-banner {
 	display: block;
 	text-align: center;
 	padding: 10px;
-	border: 3px solid;
+	border: 1px solid;
 	border-image: 
 	  linear-gradient(
 		to bottom, 
@@ -1383,7 +1383,7 @@ p.cryptech-info {
 	width: 13%;
 	height: 250px;
 	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,.3));
+	background-image: linear-gradient(to bottom, rgba(255,255,255,.2), rgba(99, 141, 186,.3), rgba(255,255,255,.2));
 	transition: .5s;
   }
 
@@ -1391,7 +1391,7 @@ p.cryptech-info {
 	display: block;
 	text-align: center;
 	padding: 10px;
-	border: 3px solid;
+	border: 1px solid;
 	border-image: 
 	  linear-gradient(
 		to bottom, 
@@ -1400,11 +1400,10 @@ p.cryptech-info {
 	  ) 1;
 	width: 13%;
 	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-	background-image: linear-gradient(to bottom, rgba(36,46,75,1), rgba(255,255,255,.3));
+	background-image: linear-gradient(to bottom, rgba(99, 141, 186,.5), rgba(255,255,255,.1));
 	transition: .5s;
 	-webkit-animation: squid .85s infinite  alternate;
   	animation: squid .85s infinite alternate;
-  	height: 300px;
   }
 
   .coin-profile{
@@ -1429,7 +1428,7 @@ p.cryptech-info {
   }
 
   .active-coin {
-	background-image: linear-gradient(to bottom, rgba(36,46,75,1), rgba(255,255,255,.3));
+	background-image: linear-gradient(to bottom, rgba(99, 141, 186,.5), rgba(255,255,255,.1));
 	-webkit-animation: squid .85s infinite  alternate;
 	animation: squid .85s infinite alternate;
 	height: 300px;
@@ -1441,10 +1440,6 @@ p.cryptech-info {
 
   @media (max-width: 1900px) {
 	.coin-bg {
-		border: 1px solid white;
-		padding: 10px;
-		background-color: black;
-		margin-top: 20px;
 		margin-bottom: 13rem;
 	  }
 
@@ -1456,21 +1451,7 @@ p.cryptech-info {
 @media (max-width: 1200px) {
 
 	.coin-banner {
-		display: block;
-		text-align: center;
-		padding: 10px;
-		border: 3px solid;
-		border-image: 
-		  linear-gradient(
-			to bottom, 
-			white, 
-			rgba(0, 0, 0, 0)
-		  ) 1;
 		width: 15%;
-		height: 250px;
-		clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-		background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,.3));
-		transition: .5s;
 	  }
 
 	.coin-center {
@@ -1491,21 +1472,7 @@ p.cryptech-info {
 @media (max-width: 992px) {
 
 	.coin-banner {
-		display: block;
-		text-align: center;
-		padding: 10px;
-		border: 3px solid;
-		border-image: 
-		  linear-gradient(
-			to bottom, 
-			white, 
-			rgba(0, 0, 0, 0)
-		  ) 1;
 		width: 17%;
-		height: 250px;
-		clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-		background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,.3));
-		transition: .5s;
 	  }
 
 	.coin-center {
@@ -1527,21 +1494,7 @@ p.cryptech-info {
 @media (max-width: 768px) {
 
 	.coin-banner {
-		display: block;
-		text-align: center;
-		padding: 10px;
-		border: 1px solid;
-		border-image: 
-		  linear-gradient(
-			to bottom, 
-			white, 
-			rgba(0, 0, 0, 0)
-		  ) 1;
 		width: 42%;
-		height: 250px;
-		clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-		background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,.3));
-		transition: .5s;
 		margin-bottom: 1rem;
 	  }
 
@@ -1570,3 +1523,5 @@ p.cryptech-info {
 		margin-bottom: 10rem;
 	  }
 }
+
+/* color: rgb(99, 141, 186); */
