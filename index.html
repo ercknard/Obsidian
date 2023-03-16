@@ -137,7 +137,8 @@
                </div>
                <div>
                   <h1 class="cryptech-info"> Welcome to <br> <span class="typed-text"></span><span class="cursor typing">.</span> </h1>
-                  <p class="cryptech-info"> CryptechCraft is a multi-server Minecraft network with multiple game types and real cryptocurrency as in game currency. CrystalCrypts, CryptoCredits, Guns, ObsidianDestroyer and more custom plugins as well.</p>
+                  <p class="cryptech-info"> CryptechCraft is a multi-server Minecraft network with multiple game types and real cryptocurrency as in game currency. CrystalCrypts, CryptoCredits, Guns, ObsidianDestroyer and more custom plugins as well.<p class="center-profile text-motion-index">JOIN OTHER <strong><span class="players-online"></strong></span> PLAYERS!</p>
+                  </p>
                   <br>
                   <div class="coin-mobile-view">
                      <img class="coin-on-main vert-move" src="images/coins/btc_L.png">
@@ -158,8 +159,15 @@
       <div class="tab tab-bg" id="Play" style="display:none">
          <section class="fade width-class">
             <div class="space-pc">.</div>
-            <h2 class="page-name-mobile text-motion-index"> SERVERS</h2>
-            <h2 class="page-name text-motion-index"> SERVERS </h2>
+            <h2 class="page-name-mobile text-motion-index"> SERVER STATUS</h2>
+            <h2 class="page-name text-motion-index"> SERVER STATUS </h2>
+            <br>
+            <div class="server-status">
+               <p class="stat">Server Name : <span class="server-motd-online"></span><br>
+               Server Status : <span class="server-online"></span><br>
+               Players Online : <span class="players-server-online"></span> of <span class="players-max-online"></span><br>
+               Version Name : <span class="server-name-online"></span></p> <br>
+           </div>
          </section>
       </div>
       <!--------------------------------------------------AGES----------------------------------------------------------->
@@ -1699,6 +1707,8 @@
    <script src="scripts/copy.js"></script>
    <script src="scripts/typing.js"></script>
    <script src="scripts/coinprice.js"></script>
+   <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+   <script src="scripts/playercount.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
