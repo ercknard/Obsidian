@@ -1583,13 +1583,12 @@ p.cryptech-info {
 
 .leads-portrait {
 	border: 3px solid white;
-	border-radius: 50%;
 	padding: 1rem;
 	border-top: none;
 	border-left: none;
 	border-right: none;
 	width: 100%;
-	background-image: linear-gradient(to top, rgba(255,255,255,.05), rgba(255,255,255,0));
+	background-image: linear-gradient(to top, rgba(99, 141, 186,.5), rgba(255,255,255,0));
 }
 
 /* color: rgb(99, 141, 186); */
