@@ -965,3 +965,41 @@ function showSlideleads(n) {
   }
   slides[slideIndexleads-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------server-----------------------------------------------------------------//
+
+var slideIndexserver = 0;
+carouselserver();
+
+function carouselserver() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-server");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexserver++;
+  if (slideIndexserver > x.length) {slideIndexserver = 1} 
+  x[slideIndexserver-1].style.display = "block"; 
+}
+
+// Next/previous controls
+function plusSlidesserver(n) {
+  showSlideserver(slideIndexserver += n);
+}
+
+// Thumbnail image controls
+function currentSlideserver(n) {
+  showSlideserver(slideIndexserver = n);
+}
+
+function showSlideserver(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-server");
+  if (n > slides.length) {slideIndexserver = 1}
+  if (n < 1) {slideIndexserver = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexserver-1].style.display = "block";
+}

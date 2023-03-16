@@ -70,3 +70,23 @@ btnsleads[i].addEventListener("click", function() {
   this.className += " active-leads";
 });
 }
+
+var btnContainerserver = document.getElementById("server-active-btn");
+
+// Get all buttons with class="btn" inside the container
+var btnsserver = btnContainerserver.getElementsByClassName("server-buttons");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btnsserver.length; i++) {
+btnsserver[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-server");
+
+  // If there's no active class
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active-server", "");
+  }
+
+  // Add the active class to the current/clicked button
+  this.className += " active-server";
+});
+}
