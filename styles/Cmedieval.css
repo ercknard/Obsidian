@@ -1591,4 +1591,23 @@ p.cryptech-info {
 	background-image: linear-gradient(to top, rgba(99, 141, 186,.5), rgba(255,255,255,0));
 }
 
+/*----------------------------------------- servers ----------------------------------------*/
+
+.server-status {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+}
+
+.center-profile {
+	filter: drop-shadow(3px 3px 1px black);
+	text-align: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 0;
+	font-style: italic;
+	font-weight: bold;
+}
+
 /* color: rgb(99, 141, 186); */
