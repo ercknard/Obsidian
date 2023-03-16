@@ -66,7 +66,7 @@ const queryStringohm = Object.keys(paramsohm)
 fetch(`${apiUrlohm}?${queryStringohm}`)
   .then(response => response.json())
   .then(data => {
-    const ohmcoinPrice = data.ohmcoin;
+    const ohmcoinPrice = data.ohmcoin.usd;
     document.getElementById('ohm-coin-price').textContent = `$ ${ohmcoinPrice}`;
   })
   .catch(error => console.error(error));
@@ -102,7 +102,7 @@ const queryStringsend = Object.keys(paramssend)
 fetch(`${apiUrlsend}?${queryStringsend}`)
   .then(response => response.json())
   .then(data => {
-    const socialsendPrice = data.socialsend;
+    const socialsendPrice = data.socialsend.usd;
     document.getElementById('social-send-price').textContent = `$ ${socialsendPrice}`;
   })
   .catch(error => console.error(error));
