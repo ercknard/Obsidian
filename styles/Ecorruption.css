@@ -364,7 +364,7 @@ img.vert-move-6 {
 }
 
 .main-footer.scrolled {
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+	background-image: linear-gradient(to left, rgba(0,0,0,1), rgba(4, 30, 35,1), rgba(0,0,0,1)) !important;
 	transition: background-image 200ms linear;
 	border: 1px solid white;
 	border-image:
