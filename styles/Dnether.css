@@ -1740,4 +1740,12 @@ p.cryptech-info {
 	  ) 1;
 }
 
+@media (max-width: 768px) {
+
+	.ages-banner {
+		width: 100%;
+	}
+
+}
+
 /* color: rgb(33, 15, 14); */

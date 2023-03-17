@@ -1746,3 +1746,11 @@ p.cryptech-info {
 		rgba(0, 0, 0, 0)
 	  ) 1;
 }
+
+@media (max-width: 768px) {
+
+	.ages-banner {
+		width: 100%;
+	}
+
+}
