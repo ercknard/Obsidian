@@ -293,6 +293,11 @@ img.vert-move-6 {
 	bottom: 0;
 }
 
+.main-footer.scrolled {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+	transition: background-color 200ms linear;
+}
+
 .social-icon,
 .menu {
 	position: relative;
@@ -427,6 +432,11 @@ header {
 
 .index-navigation {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+}
+
+.index-navigation.scrolled {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+	transition: background-color 200ms linear;
 }
 
 .index-navigation-mobile {
