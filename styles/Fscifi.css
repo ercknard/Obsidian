@@ -1691,7 +1691,6 @@ p.cryptech-info {
 
 .ages-banner {
 	width: 22%;
-	clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
 	border: 2.5px solid;
 	box-shadow: 1px 20px 50px black inset;
 	border-image: 
@@ -1700,7 +1699,6 @@ p.cryptech-info {
 		white, 
 		rgba(0, 0, 0, 0)
 	  ) 1;
-	height: 500px;
 }
 
 .ages-profile {
