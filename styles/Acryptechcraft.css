@@ -1692,3 +1692,45 @@ p.cryptech-info {
 	}
 
 }
+
+/*----------------------------------------- ages ----------------------------------------*/
+
+.ages-banner {
+	width: 22%;
+	clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+	border: 1px solid;
+	border-image: 
+	  linear-gradient(
+		to bottom, 
+		white, 
+		rgba(0, 0, 0, 0)
+	  ) 1;
+	height: 500px;
+}
+
+.ages-profile {
+	width: 100%;
+}
+
+.ages-name {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.med {
+	background-image: linear-gradient(to bottom, rgba(38, 52, 73,1), rgba(0,0,0,1), rgba(29, 33, 42,1));
+}
+
+.net {
+	background-image: linear-gradient(to bottom, rgba(33, 15, 14,1), rgba(0,0,0,1), rgba(29, 33, 42,1));
+}
+
+.cor {
+	background-image: linear-gradient(to bottom, rgba(4, 30, 35,1), rgba(0,0,0,1), rgba(29, 33, 42,1));
+}
+
+.sci {
+	background-image: linear-gradient(to bottom, rgba(53, 37, 83,1), rgba(0,0,0,1), rgba(29, 33, 42,1));
+}
