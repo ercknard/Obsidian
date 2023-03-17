@@ -16,6 +16,10 @@ html {
 	color: #fff;
 }
 
+p {
+	filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 1));
+}
+
 body::-webkit-scrollbar {
     display: none;
     -ms-overflow-style: none;
