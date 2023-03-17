@@ -999,7 +999,7 @@ p.cryptech-info {
 		background: rgba(225, 225, 225, .05);
 		border: 1px solid rgba(225, 225, 225, .5);
 		border-radius: 1%;
-		-webkit-box-reflect: none;
+		-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
 	}
 
 	.home-tab {
