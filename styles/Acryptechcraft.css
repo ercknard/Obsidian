@@ -1791,3 +1791,33 @@ p.cryptech-info {
 	  transform: translateX(-100%);
 	}
   }
+
+  @media (max-width: 1920px) {
+	  
+	.carousel {
+	  display: flex;
+	  width: 300%;
+	  animation: carousel 30s infinite linear;
+	  margin-bottom: 5rem;
+	}
+	
+	.carousel img {
+	  width: 20%;
+	}
+
+}
+
+  @media (max-width: 768px) {
+	  
+	  .carousel {
+		display: flex;
+		width: 400%;
+		animation: carousel 30s infinite linear;
+		margin-bottom: 5rem;
+	  }
+	  
+	  .carousel img {
+		width: 25%;
+	  }
+
+}
