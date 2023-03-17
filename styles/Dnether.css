@@ -1740,6 +1740,13 @@ p.cryptech-info {
 	  ) 1;
 }
 
+.front-index-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10rem;
+}
+
 @media (max-width: 768px) {
 
 	.ages-banner {
@@ -1747,13 +1754,11 @@ p.cryptech-info {
 		margin-bottom: 2rem;
 	}
 
-}
+	.front-index-1 {
+		flex-direction: column-reverse;
+		padding: 1rem;
+	}
 
-.front-index-1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 10rem;
 }
 
 .carousel-container {
