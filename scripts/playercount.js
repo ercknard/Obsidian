@@ -5,6 +5,7 @@ MinecraftAPI.getServerStatus('cryptechcraft.xyz', {
     }
 
     // you can change these to your own message!
+    // document.querySelector('.server-pic-online').innerHTML = status.favicon ;
     document.querySelector('.server-motd-online').innerHTML = status.motd ;
     document.querySelector('.server-name-online').innerHTML = status.server.name ;
     document.querySelector('.server-online').innerHTML = status.online ? 'Online' : 'Offline' ;
