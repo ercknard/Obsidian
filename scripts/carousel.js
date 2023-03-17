@@ -1003,3 +1003,41 @@ function showSlideserver(n) {
   }
   slides[slideIndexserver-1].style.display = "block";
 }
+
+//----------------------------------------------------------------------ages-----------------------------------------------------------------//
+
+var slideIndexages = 0;
+carouselages();
+
+function carouselages() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-ages");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexages++;
+  if (slideIndexages > x.length) {slideIndexages = 1} 
+  x[slideIndexages-1].style.display = "block"; 
+}
+
+// Next/previous controls
+function plusSlidesages(n) {
+  showSlideages(slideIndexages += n);
+}
+
+// Thumbnail image controls
+function currentSlideages(n) {
+  showSlideages(slideIndexages = n);
+}
+
+function showSlideages(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-ages");
+  if (n > slides.length) {slideIndexages = 1}
+  if (n < 1) {slideIndexages = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexages-1].style.display = "block";
+}
