@@ -545,7 +545,7 @@ header {
 }
 
 .nav-buttons:hover {
-	background-image: linear-gradient(to top, rgb(38, 52, 73,.3), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(to top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
   transform: translateY(3px);
 }
 
@@ -568,7 +568,7 @@ header {
 }
 
 .active {
-	background-image: linear-gradient(to top, rgb(38, 52, 73,.3), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(to top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
 	border-bottom: 1px solid white;
 }
 
