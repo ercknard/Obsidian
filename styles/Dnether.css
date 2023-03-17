@@ -1728,4 +1728,16 @@ p.cryptech-info {
 }
 
 
+.active-ages {
+	width: 22%;
+	border: 2.5px solid;
+	box-shadow: 1px 1px 10px white inset;
+	border-image: 
+	  linear-gradient(
+		to bottom, 
+		white, 
+		rgba(0, 0, 0, 0)
+	  ) 1;
+}
+
 /* color: rgb(33, 15, 14); */

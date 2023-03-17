@@ -90,3 +90,23 @@ btnsserver[i].addEventListener("click", function() {
   this.className += " active-server";
 });
 }
+
+var btnContainerages = document.getElementById("ages-active-btn");
+
+// Get all buttons with class="btn" inside the container
+var btnsages = btnContainerages.getElementsByClassName("ages-buttons");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btnsages.length; i++) {
+btnsages[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-ages");
+
+  // If there's no active class
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active-ages", "");
+  }
+
+  // Add the active class to the current/clicked button
+  this.className += " active-ages";
+});
+}
