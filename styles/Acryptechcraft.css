@@ -291,27 +291,27 @@ img.vert-move-6 {
 
 @keyframes bg-animation {
 	0% {
-		background-image: url(/images/bgs/bg-main-cryptech.webp);
+		background-image: url(/images/bgs/bg-main-cryptech-low.webp);
 	}
 
 	20% {
-		background-image: url(/images/bgs/bg-sub-cryptech.webp);
+		background-image: url(/images/bgs/bg-sub-cryptech-low.webp);
 	}
 
 	40% {
-		background-image: url(/images/bgs/bg-sub-cryptech.webp);
+		background-image: url(/images/bgs/bg-sub-cryptech-low.webp);
 	}
 
 	60% {
-		background-image: url(/images/bgs/bg-sub-cryptech.webp);
+		background-image: url(/images/bgs/bg-sub-cryptech-low.webp);
 	}
 
 	80% {
-		background-image: url(/images/bgs/bg-main-cryptech.webp);
+		background-image: url(/images/bgs/bg-main-cryptech-low.webp);
 	}
 
 	100% {
-		background-image: url(/images/bgs/bg-main-cryptech.webp);
+		background-image: url(/images/bgs/bg-main-cryptech-low.webp);
 	}
 }
 
@@ -328,27 +328,27 @@ img.vert-move-6 {
 
 @keyframes bg-animation-dark {
 	0% {
-		background-image: url(/images/bgs/story/bg-main-cryptech.webp);
+		background-image: url(/images/bgs/story/bg-main-cryptech-low.webp);
 	}
 
 	20% {
-		background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
+		background-image: url(/images/bgs/story/bg-sub-cryptech-low.webp);
 	}
 
 	40% {
-		background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
+		background-image: url(/images/bgs/story/bg-sub-cryptech-low.webp);
 	}
 
 	60% {
-		background-image: url(/images/bgs/story/bg-sub-cryptech.webp);
+		background-image: url(/images/bgs/story/bg-sub-cryptech-low.webp);
 	}
 
 	80% {
-		background-image: url(/images/bgs/story/bg-main-cryptech.webp);
+		background-image: url(/images/bgs/story/bg-main-cryptech-low.webp);
 	}
 
 	100% {
-		background-image: url(/images/bgs/story/bg-main-cryptech.webp);
+		background-image: url(/images/bgs/story/bg-main-cryptech-low.webp);
 	}
 }
 
