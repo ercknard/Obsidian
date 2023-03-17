@@ -291,27 +291,27 @@ img.vert-move-6 {
 
 @keyframes bg-animation {
 	0% {
-		background-image: url(/images/bgs/bg-main-scifi.webp);
+		background-image: url(/images/bgs/bg-main-scifi-low.webp);
 	}
 
 	20% {
-		background-image: url(/images/bgs/bg-sub-scifi.webp);
+		background-image: url(/images/bgs/bg-sub-scifi-low.webp);
 	}
 
 	40% {
-		background-image: url(/images/bgs/bg-sub-scifi.webp);
+		background-image: url(/images/bgs/bg-sub-scifi-low.webp);
 	}
 
 	60% {
-		background-image: url(/images/bgs/bg-sub-scifi.webp);
+		background-image: url(/images/bgs/bg-sub-scifi-low.webp);
 	}
 
 	80% {
-		background-image: url(/images/bgs/bg-main-scifi.webp);
+		background-image: url(/images/bgs/bg-main-scifi-low.webp);
 	}
 
 	100% {
-		background-image: url(/images/bgs/bg-main-scifi.webp);
+		background-image: url(/images/bgs/bg-main-scifi-low.webp);
 	}
 }
 
