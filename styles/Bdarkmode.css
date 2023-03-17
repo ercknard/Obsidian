@@ -1521,13 +1521,13 @@ p.cryptech-info {
 }
 
 .leads-portrait {
-	border: 3px solid white;
+	/* border: 3px solid white; */
 	padding: 1rem;
 	border-top: none;
 	border-left: none;
 	border-right: none;
 	width: 100%;
-	background-image: linear-gradient(to top, rgba(255,255,255,.5), rgba(255,255,255,0));
+	/* background-image: linear-gradient(to top, rgba(255,255,255,.5), rgba(255,255,255,0)); */
 }
 
 /*----------------------------------------- servers ----------------------------------------*/
