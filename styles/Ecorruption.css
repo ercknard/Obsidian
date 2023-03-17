@@ -1750,4 +1750,11 @@ p.cryptech-info {
 
 }
 
+.front-index-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10rem;
+}
+
 /* color: rgb(4, 30, 35); */
