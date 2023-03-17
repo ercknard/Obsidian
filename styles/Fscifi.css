@@ -1758,4 +1758,28 @@ p.cryptech-info {
 	padding: 10rem;
 }
 
+.carousel-container {
+	overflow: hidden;
+  }
+  
+  .carousel {
+	display: flex;
+	width: 400%;
+	animation: carousel 30s infinite linear;
+	margin-bottom: 5rem;
+  }
+  
+  .carousel img {
+	width: 25%;
+  }
+  
+  @keyframes carousel {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
+  }
+
 /* color: rgb(53, 37, 83); */
