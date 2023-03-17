@@ -364,7 +364,13 @@ img.vert-move-6 {
 
 .main-footer.scrolled {
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
-	transition: background-color 200ms linear;
+	transition: background-image 200ms linear;
+	border: 1px solid white;
+	border-image:
+		linear-gradient(to right, rgba(0, 0, 0, 0),
+			white,
+			rgba(0, 0, 0, 0)) 1;
+	border-bottom: none;
 }
 
 .social-icon,
@@ -504,8 +510,15 @@ header {
 }
 
 .index-navigation.scrolled {
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+	/* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
 	transition: background-color 200ms linear;
+	border: 1px solid white;
+	border-image:
+		linear-gradient(to right, rgba(0, 0, 0, 0),
+			white,
+			rgba(0, 0, 0, 0)) 1;
+	border-top: none; */
+	display: none;
 }
 
 .index-navigation-mobile {
