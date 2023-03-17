@@ -1698,7 +1698,8 @@ p.cryptech-info {
 .ages-banner {
 	width: 22%;
 	clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
-	border: 1px solid;
+	border: 2.5px solid;
+	box-shadow: 1px 20px 50px black inset;
 	border-image: 
 	  linear-gradient(
 		to bottom, 
@@ -1717,6 +1718,7 @@ p.cryptech-info {
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
+	margin-top: 1rem;
 }
 
 .med {
