@@ -1849,4 +1849,34 @@ p.cryptech-info {
 
 }
 
+.collapsible {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: auto;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1rem;
+	border: .5px solid white;
+	margin-left: 1rem;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .activesss, .collapsible:hover {
+	background-color: #212121;
+	transform: translateY(-2px);
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+	padding: 0 0;
+	display: none;
+	overflow: hidden;
+	background-color: #212121;
+	border: .5px solid white;
+	margin-left: 1rem;
+  }
+
 /* color: rgb(4, 30, 35); */
