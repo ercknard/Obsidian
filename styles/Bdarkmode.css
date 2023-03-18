@@ -284,6 +284,12 @@ img.vert-move-6 {
 	background-attachment: fixed;
 }
 
+.tab-bg {
+	background-image: linear-gradient(to bottom, rgba(19, 15, 20, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+	min-height: 100vh;
+	background-attachment: fixed;
+}
+
 /*----------------------------------------- FOOTER ----------------------------------------*/
 
 .main-footer {
