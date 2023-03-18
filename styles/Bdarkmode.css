@@ -1449,7 +1449,7 @@ p.cryptech-info {
 @media (max-width: 768px) {
 
 	.coin-banner {
-		width: 50%;
+		width: 40%;
 		margin-bottom: 3rem;
 	}
 
@@ -1461,7 +1461,7 @@ p.cryptech-info {
 	}
 
 	.coin-banner:hover {
-		width: 50%;
+		width: 40%;
 		height: 250px;
 	}
 
