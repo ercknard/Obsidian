@@ -485,21 +485,16 @@ audio::-webkit-media-controls-panel {
 @media (max-width: 768px) {
 	.main-footer {
 		background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding-top: 0;
+		padding-bottom: 0;
 		position: relative;
 		width: 100%;
-		bottom: 0;
 	}
 
 	.footer-icon {
 		display: none;
 	}
 
-	.main-footer.scrolled {
-		margin-top: 1rem;
-		position: relative;
-	}
 }
 
 /*----------------------------------------- HEADER ----------------------------------------*/
