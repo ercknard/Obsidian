@@ -280,80 +280,6 @@ img.vert-move-6 {
 
 /*----------------------------------------- BACKGROUND ----------------------------------------*/
 
-.bg-landpage {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	animation-name: bg-animation;
-	animation-duration: 15s;
-	animation-iteration-count: infinite;
-}
-
-@keyframes bg-animation {
-	0% {
-		background-image: url(/images/bgs/bg-main-medieval-low.webp);
-	}
-
-	20% {
-		background-image: url(/images/bgs/bg-sub-medieval-low.webp);
-	}
-
-	40% {
-		background-image: url(/images/bgs/bg-sub-medieval-low.webp);
-	}
-
-	60% {
-		background-image: url(/images/bgs/bg-sub-medieval-low.webp);
-	}
-
-	80% {
-		background-image: url(/images/bgs/bg-main-medieval-low.webp);
-	}
-
-	100% {
-		background-image: url(/images/bgs/bg-main-medieval-low.webp);
-	}
-}
-
-.tab-bg {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	animation-name: bg-animation-dark;
-	animation-duration: 15s;
-	animation-iteration-count: infinite;
-	min-height: 100vh;
-}
-
-@keyframes bg-animation-dark {
-	0% {
-		background-image: url(/images/bgs/story/bg-main-medieval-low.webp);
-	}
-
-	20% {
-		background-image: url(/images/bgs/story/bg-sub-medieval-low.webp);
-	}
-
-	40% {
-		background-image: url(/images/bgs/story/bg-sub-medieval-low.webp);
-	}
-
-	60% {
-		background-image: url(/images/bgs/story/bg-sub-medieval-low.webp);
-	}
-
-	80% {
-		background-image: url(/images/bgs/story/bg-main-medieval-low.webp);
-	}
-
-	100% {
-		background-image: url(/images/bgs/story/bg-main-medieval-low.webp);
-	}
-}
-
-@media (max-width: 768px) {
 	.bg-landpage {
 		background-image: linear-gradient(to bottom, rgba(38, 52, 73, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 		animation: none;
@@ -362,7 +288,6 @@ img.vert-move-6 {
 		background-image: linear-gradient(to bottom, rgba(38, 52, 73, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 		animation: none;
 	}
-}
 
 /*----------------------------------------- FOOTER ----------------------------------------*/
 

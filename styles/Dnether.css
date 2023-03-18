@@ -1749,6 +1749,11 @@ p.cryptech-info {
 			rgba(0, 0, 0, 0)) 1;
 }
 
+.ages-flex-btn {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .front-index-1 {
 	display: flex;
 	justify-content: center;
@@ -1781,6 +1786,10 @@ p.cryptech-info {
 	}
 
 	.not-to-see {
+		display: none;
+	}
+
+	.ages-flex-btn {
 		display: none;
 	}
 }
