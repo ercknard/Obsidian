@@ -484,7 +484,7 @@ audio::-webkit-media-controls-panel {
 
 @media (max-width: 768px) {
 	.main-footer {
-
+		padding: 10px;
 	}
 
 	.main-footer.scrolled {
@@ -652,6 +652,7 @@ header {
 
 	.index-navigation {
 		display: none;
+		visibility: hidden;
 	}
 
 	.checkbox-container {

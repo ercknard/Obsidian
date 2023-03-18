@@ -477,23 +477,17 @@ img.vert-move-6 {
 
 @media (max-width: 768px) {
 	.main-footer {
-		background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
-		padding-top: 15px;
-		padding-bottom: 15px;
-		position: absolute;
-		width: 100%;
-		bottom: auto;
-	}
-
-	.footer-icon {
-		display: none;
+		padding: 10px;
 	}
 
 	.main-footer.scrolled {
 		position: relative;
 	}
-}
 
+	.footer-icon {
+		display: none;
+	}
+}
 /*----------------------------------------- HEADER ----------------------------------------*/
 
 header {
@@ -648,8 +642,10 @@ header {
 		display: block;
 	}
 
+
 	.index-navigation {
 		display: none;
+		visibility: hidden;
 	}
 
 	.checkbox-container {
