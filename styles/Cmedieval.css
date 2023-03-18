@@ -1741,8 +1741,14 @@ p.cryptech-info {
 @media (max-width: 768px) {
 
 	.ages-banner {
-		width: 75%;
-		margin-bottom: 2rem;
+		width: 49%;
+		border: 1px solid;
+		box-shadow: 1px 20px 50px black inset;
+		border-image:
+			linear-gradient(to bottom,
+				white,
+				rgba(0, 0, 0, 0)) 1;
+		margin-bottom: 1rem;
 	}
 
 	.front-index-1 {
@@ -1750,6 +1756,14 @@ p.cryptech-info {
 		padding: 1rem;
 	}
 
+	.ages-flex {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.not-to-see {
+		display: none;
+	}
 }
 
 .carousel-container {
