@@ -100,7 +100,7 @@ body::-webkit-scrollbar {
 		font-size: 1.8rem;
 		border-image:
 			linear-gradient(to right, rgba(0, 0, 0, 0),
-				rgb(38, 52, 73),
+				white,
 				rgba(0, 0, 0, 0)) 1;
 	}
 
