@@ -1745,6 +1745,7 @@ p.cryptech-info {
 	justify-content: center;
 	align-items: center;
 	padding: 10rem;
+	background-image: radial-gradient(circle at center, rgba(4, 30, 35, 1), rgba(29, 33, 42, 0));
 }
 
 @media (max-width: 768px) {
@@ -1778,12 +1779,12 @@ p.cryptech-info {
 
 .carousel-container {
 	overflow: hidden;
-	background-image: linear-gradient(to top, rgba(4, 30, 35, .75), rgba(0, 0, 0, .5), rgba(29, 33, 42, 0));
+	background-image: linear-gradient(to top, rgba(29, 33, 42, 0),rgba(4, 30, 35, .75), rgba(29, 33, 42, 0));
 	border: 1px solid;
 	border-image:
 		linear-gradient(to bottom, rgba(0, 0, 0, 0),
 			white,
-			gray) 1;
+			rgba(0, 0, 0, 0)) 1;
 }
 
 .carousel {
