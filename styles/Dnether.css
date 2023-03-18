@@ -353,6 +353,17 @@ img.vert-move-6 {
 	}
 }
 
+@media (max-width: 768px) {
+	.bg-landpage {
+		background-image: linear-gradient(to bottom, rgba(33, 15, 14, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+		animation: none;
+	}
+	.tab-bg {
+		background-image: linear-gradient(to bottom, rgba(33, 15, 14, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+		animation: none;
+	}
+}
+
 /*----------------------------------------- FOOTER ----------------------------------------*/
 
 .main-footer {
