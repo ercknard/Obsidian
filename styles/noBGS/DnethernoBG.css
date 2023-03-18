@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
 
 .page-name {
 	display: block;
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(53, 37, 83, 1), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(33, 15, 14, 1), rgba(0, 0, 0, 0));
 	-webkit-text-stroke: .05px gray;
 	text-align: center;
 	padding: .8rem;
@@ -254,10 +254,10 @@ img.vert-move-6 {
 }
 
 .text-motion {
-	background: linear-gradient(90deg, rgb(53, 37, 83), #fff, #fff);
+	background: linear-gradient(90deg, rgb(33, 15, 14), #fff, #fff);
 	background-repeat: no-repeat;
 	background-size: 80%;
-	background-color: white;
+	background-color: #5B8FB9;
 	animation: text-motion 1.7s infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -281,13 +281,16 @@ img.vert-move-6 {
 /*----------------------------------------- BACKGROUND ----------------------------------------*/
 
 	.bg-landpage {
-		background-image: linear-gradient(to bottom, rgba(53, 37, 83, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+		background-image: linear-gradient(to bottom, rgba(33, 15, 14, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 		animation: none;
+		min-height: 100vh;
 	}
 	.tab-bg {
-		background-image: linear-gradient(to bottom, rgba(53, 37, 83, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+		background-image: linear-gradient(to bottom, rgba(33, 15, 14, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 		animation: none;
+		min-height: 100vh;
 	}
+
 /*----------------------------------------- FOOTER ----------------------------------------*/
 
 .main-footer {
@@ -300,7 +303,7 @@ img.vert-move-6 {
 }
 
 .main-footer.scrolled {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(53, 37, 83, 1), rgba(0, 0, 0, 1)) !important;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(33, 15, 14, 1), rgba(0, 0, 0, 1)) !important;
 	transition: background-image 200ms linear;
 	border: 1px solid white;
 	border-image:
@@ -384,7 +387,7 @@ img.vert-move-6 {
 }
 
 .text-motion-index {
-	background: linear-gradient(90deg, rgb(53, 37, 83), #fff, #fff);
+	background: linear-gradient(90deg, rgb(33, 15, 14), #fff, #fff);
 	background-repeat: no-repeat;
 	background-size: 80%;
 	background-color: #fff;
@@ -424,6 +427,7 @@ img.vert-move-6 {
 		display: none;
 	}
 }
+
 /*----------------------------------------- HEADER ----------------------------------------*/
 
 header {
@@ -493,7 +497,7 @@ header {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: rgb(53, 37, 83);
+	background-color: rgb(33, 15, 14);
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }
@@ -505,7 +509,7 @@ header {
 
 .active {
 	background-image: linear-gradient(to top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid rgb(33, 15, 14);
 }
 
 .index-logo {
@@ -839,7 +843,6 @@ header {
 
 /*----------------------------------------- HOME ----------------------------------------*/
 
-
 .front-index {
 	display: flex;
 	justify-content: center;
@@ -888,7 +891,7 @@ p.cryptech-info {
 }
 
 .typed-text {
-	color: rgb(53, 37, 83);
+	color: rgb(148, 59, 36);
 }
 
 .coin-on-main {
@@ -904,11 +907,12 @@ p.cryptech-info {
 	justify-content: flex-end;
 }
 
+
 .story-button {
 	border: .5px solid white;
 	border-radius: 5px;
 	padding: 1.2rem 3rem;
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(53, 37, 83, 1), rgba(0, 0, 0, 1));
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(33, 15, 14, 1), rgba(0, 0, 0, 1));
 	font-weight: bold;
 	font-size: 1.2rem;
 	text-shadow: -2px 2px 4px 
@@ -921,7 +925,7 @@ p.cryptech-info {
 
 .story-button:hover {
 	transform: translateY(-2px);
-	background-image: linear-gradient(to left, rgba(0, 0, 0, .8), rgba(53, 37, 83, .8), rgba(0, 0, 0, .8));
+	background-image: linear-gradient(to left, rgba(0, 0, 0, .8), rgba(33, 15, 14, .8), rgba(0, 0, 0, .8));
 }
 
 @media (max-width: 768px) {
@@ -939,7 +943,6 @@ p.cryptech-info {
 		justify-content: space-evenly;
 	}
 
-
 	.team {
 		display: block;
 		width: 100%;
@@ -949,7 +952,6 @@ p.cryptech-info {
 		border-radius: 1%;
 		-webkit-box-reflect: none;
 	}
-
 
 	.home-tab {
 		box-shadow: 1px 20px 50px black inset;
@@ -1173,7 +1175,7 @@ p.cryptech-info {
 
 .story-group {
 	border: 1px solid white;
-	background: linear-gradient(to bottom, rgb(53, 37, 83, .2), rgba(0, 212, 255, 0));
+	background: linear-gradient(to bottom, rgb(33, 15, 14, .2), rgba(0, 212, 255, 0));
 	filter: drop-shadow(5px 5px 1px black);
 	padding: 2rem;
 	position: relative;
@@ -1198,7 +1200,7 @@ p.cryptech-info {
 }
 
 .story-bg {
-	background-image: url(/images/bgs/story/bg-main-scifi.webp);
+	background-image: url(/images/bgs/story/bg-main-nether.webp);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1208,7 +1210,7 @@ p.cryptech-info {
 }
 
 .story-bg-1 {
-	background-image: url(/images/bgs/story/bg-sub-scifi.webp);
+	background-image: url(/images/bgs/story/bg-sub-nether.webp);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1247,12 +1249,12 @@ p.cryptech-info {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	padding: 1rem;
-	background: linear-gradient(to left, rgb(53, 37, 83, .2), rgba(0, 212, 255, 0));
+	background: linear-gradient(to left, rgb(33, 15, 14, .2), rgba(0, 212, 255, 0));
 	border-right: 2px solid white;
 }
 
 .story-btn-control {
-	background: linear-gradient(to bottom, rgb(53, 37, 83, .2), rgba(0, 212, 255, 0));
+	background: linear-gradient(to bottom, rgb(33, 15, 14, .2), rgba(0, 212, 255, 0));
 	border: .5px solid white;
 }
 
@@ -1265,7 +1267,7 @@ p.cryptech-info {
 
 	.story-group {
 		border: 1px solid white;
-		background: linear-gradient(to bottom, rgb(53, 37, 83, .2), rgba(0, 212, 255, 0));
+		background: linear-gradient(to bottom, rgb(33, 15, 14, .2), rgba(0, 212, 255, 0));
 		filter: drop-shadow(5px 5px 1px black);
 		padding: 2rem;
 		position: relative;
@@ -1355,7 +1357,7 @@ p.cryptech-info {
 	width: 13%;
 	height: 250px;
 	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-	background-image: linear-gradient(to bottom, rgba(53, 37, 83, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+	background-image: linear-gradient(to bottom, rgba(33, 15, 14, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 	transition: .5s;
 }
 
@@ -1370,7 +1372,7 @@ p.cryptech-info {
 			rgba(0, 0, 0, 0)) 1;
 	width: 13%;
 	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
-	background-image: linear-gradient(to bottom, rgba(53, 37, 83, .5), rgba(255, 255, 255, .1));
+	background-image: linear-gradient(to bottom, rgba(33, 15, 14, .5), rgba(255, 255, 255, .1));
 	transition: .5s;
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
@@ -1398,7 +1400,7 @@ p.cryptech-info {
 }
 
 .active-coin {
-	background-image: linear-gradient(to bottom, rgba(53, 37, 83, .5), rgba(255, 255, 255, .1));
+	background-image: linear-gradient(to bottom, rgba(33, 15, 14, .5), rgba(255, 255, 255, .1));
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
 	height: 300px;
@@ -1546,7 +1548,7 @@ p.cryptech-info {
 /*----------------------------------------- support ----------------------------------------*/
 
 .active-leads {
-	background-image: linear-gradient(to bottom, rgba(53, 37, 83, .3), rgba(255, 255, 255, .1));
+	background-image: linear-gradient(to bottom, rgba(33, 15, 14, .3), rgba(255, 255, 255, .1));
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
 }
@@ -1600,7 +1602,7 @@ p.cryptech-info {
 }
 
 .active-server {
-	background-image: linear-gradient(to bottom, rgba(53, 37, 83, .3), rgba(255, 255, 255, .1));
+	background-image: linear-gradient(to bottom, rgba(33, 15, 14, .3), rgba(255, 255, 255, .1));
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
 }
@@ -1684,7 +1686,7 @@ p.cryptech-info {
 	justify-content: center;
 	align-items: center;
 	padding: 10rem;
-	background-image: radial-gradient(circle at center, rgba(53, 37, 83, 1), rgba(29, 33, 42, 0));
+	background-image: radial-gradient(circle at center, rgba(33, 15, 14, 1), rgba(29, 33, 42, 0));
 }
 
 @media (max-width: 768px) {
@@ -1717,12 +1719,11 @@ p.cryptech-info {
 	.ages-flex-btn {
 		display: none;
 	}
-
 }
 
 .carousel-container {
 	overflow: hidden;
-	/* background-image: linear-gradient(to top, rgba(29, 33, 42, 0), rgba(53, 37, 83, .75), rgba(29, 33, 42, 0)); */
+	/* background-image: linear-gradient(to top, rgba(29, 33, 42, 0), rgba(33, 15, 14, .75), rgba(29, 33, 42, 0)); */
 	border: 1px solid;
 	border-image:
 		linear-gradient(to bottom, rgba(0, 0, 0, 0),
@@ -1830,4 +1831,4 @@ p.cryptech-info {
 	margin-left: 1rem;
   }
 
-/* color: rgb(53, 37, 83); */
+/* color: rgb(33, 15, 14); */
