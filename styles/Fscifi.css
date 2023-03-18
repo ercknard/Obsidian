@@ -1789,6 +1789,21 @@ p.cryptech-info {
 	width: 25%;
 }
 
+.carousel-container-staff {
+	overflow: hidden;
+}
+
+.carousel-staff {
+	display: flex;
+	width: 200%;
+	animation: carousel 30s infinite linear;
+	margin-bottom: 5rem;
+}
+
+.carousel-staff img {
+	width: 25%;
+}
+
 @keyframes carousel {
 	0% {
 		transform: translateX(0);
