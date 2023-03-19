@@ -1735,8 +1735,7 @@ p.cryptech-info {
 
 .ages-banner {
 	width: 22%;
-	border: 2.5px solid;
-	box-shadow: 1px 20px 50px black inset;
+	border: 2px solid;
 	border-image:
 		linear-gradient(to bottom,
 			white,
