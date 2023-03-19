@@ -292,27 +292,27 @@ img.vert-move-6 {
 
 @keyframes bg-animation {
 	0% {
-		background-image: url(/images/bgs/bg-main-nether-low.webp);
+		background-image: url(/images/bgs/bg-main-nether-low-1.webp);
 	}
 
 	20% {
-		background-image: url(/images/bgs/bg-sub-nether-low.webp);
+		background-image: url(/images/bgs/bg-sub-nether-low-1.webp);
 	}
 
 	40% {
-		background-image: url(/images/bgs/bg-sub-nether-low.webp);
+		background-image: url(/images/bgs/bg-sub-nether-low-1.webp);
 	}
 
 	60% {
-		background-image: url(/images/bgs/bg-sub-nether-low.webp);
+		background-image: url(/images/bgs/bg-sub-nether-low-1.webp);
 	}
 
 	80% {
-		background-image: url(/images/bgs/bg-main-nether-low.webp);
+		background-image: url(/images/bgs/bg-main-nether-low-1.webp);
 	}
 
 	100% {
-		background-image: url(/images/bgs/bg-main-nether-low.webp);
+		background-image: url(/images/bgs/bg-main-nether-low-1.webp);
 	}
 }
 
@@ -329,27 +329,27 @@ img.vert-move-6 {
 
 @keyframes bg-animation-dark {
 	0% {
-		background-image: url(/images/bgs/story/bg-main-nether-low.webp);
+		background-image: url(/images/bgs/story/bg-main-nether-low-1.webp);
 	}
 
 	20% {
-		background-image: url(/images/bgs/story/bg-sub-nether-low.webp);
+		background-image: url(/images/bgs/story/bg-sub-nether-low-1.webp);
 	}
 
 	40% {
-		background-image: url(/images/bgs/story/bg-sub-nether-low.webp);
+		background-image: url(/images/bgs/story/bg-sub-nether-low-1.webp);
 	}
 
 	60% {
-		background-image: url(/images/bgs/story/bg-sub-nether-low.webp);
+		background-image: url(/images/bgs/story/bg-sub-nether-low-1.webp);
 	}
 
 	80% {
-		background-image: url(/images/bgs/story/bg-main-nether-low.webp);
+		background-image: url(/images/bgs/story/bg-main-nether-low-1.webp);
 	}
 
 	100% {
-		background-image: url(/images/bgs/story/bg-main-nether-low.webp);
+		background-image: url(/images/bgs/story/bg-main-nether-low-1.webp);
 	}
 }
 
