@@ -296,7 +296,7 @@ img.vert-move-6 {
 	}
 
 	20% {
-		background-image: url(/images/bgs/bg-sub-corruption-low.webp);
+		background-image: url(/images/bgs/story/bg-sub-corruption-low.webp);
 	}
 
 	40% {
@@ -308,7 +308,7 @@ img.vert-move-6 {
 	}
 
 	80% {
-		background-image: url(/images/bgs/bg-main-corruption-low.webp);
+		background-image: url(/images/bgs/story/bg-main-corruption-low.webp);
 	}
 
 	100% {

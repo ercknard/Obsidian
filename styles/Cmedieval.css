@@ -296,7 +296,7 @@ img.vert-move-6 {
 	}
 
 	20% {
-		background-image: url(/images/bgs/bg-sub-medieval-low.webp);
+		background-image: url(/images/bgs/story/bg-sub-medieval-low.webp);
 	}
 
 	40% {
@@ -308,7 +308,7 @@ img.vert-move-6 {
 	}
 
 	80% {
-		background-image: url(/images/bgs/bg-main-medieval-low.webp);
+		background-image: url(/images/bgs/story/bg-main-medieval-low.webp);
 	}
 
 	100% {
