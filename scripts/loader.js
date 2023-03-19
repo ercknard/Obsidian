@@ -1,4 +1,5 @@
-const fadeOut = () => {
+
+function fadeOut() {
     const loaderWrapper = document.querySelector('.wrapper');
     loaderWrapper.classList.add('fades');
   }
