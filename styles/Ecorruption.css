@@ -1798,7 +1798,7 @@ p.cryptech-info {
 }
 
 .carousel-container {
-	/* overflow: hidden; */
+	overflow: hidden;
 	/* background-image: linear-gradient(to top, rgba(29, 33, 42, 0),rgba(4, 30, 35, .75), rgba(29, 33, 42, 0)); */
 	/* border: 1px solid;
 	border-image:
