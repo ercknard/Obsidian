@@ -1397,7 +1397,7 @@ p.cryptech-info {
 	padding: 10px;
 	background-color: black;
 	margin-top: 20px;
-	margin-bottom: 4rem;
+	margin-bottom: 10rem;
 }
 
 .active-coin {
@@ -1464,6 +1464,38 @@ p.cryptech-info {
 }
 
 @media (max-width: 768px) {
+	.coin-banner {
+		width: 30%;
+		margin-bottom: 3rem;
+	}
+
+	.coin-center {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		height: 300px;
+	}
+
+	.coin-banner:hover {
+		width: 30%;
+		height: 250px;
+	}
+
+	.coin-pc {
+		display: none;
+	}
+
+	.coin-mobile {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.coin-bg {
+		margin-bottom: 10rem;
+	}
+}
+
+@media (max-width: 600px) {
 
 	.coin-banner {
 		width: 40%;
