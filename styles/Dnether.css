@@ -1936,3 +1936,14 @@ p.cryptech-info {
   }
 
 /* color: rgb(33, 15, 14); */
+
+.for-pc {
+	display: none;
+}
+
+.to-story {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 5rem;
+}

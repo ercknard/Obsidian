@@ -1864,3 +1864,14 @@ p.cryptech-info {
   }
 
 /* color: rgb(4, 30, 35); */
+
+.for-pc {
+	display: none;
+}
+
+.to-story {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 5rem;
+}
