@@ -1949,3 +1949,11 @@ p.cryptech-info {
 	justify-content: space-evenly;
 	gap: 5rem;
 }
+
+@media (max-width: 768px) {
+
+	.to-story {
+		gap: 2rem;
+	}
+
+}
