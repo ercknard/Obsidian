@@ -1364,7 +1364,7 @@ p.cryptech-info {
 			rgba(0, 0, 0, 0)) 1;
 	width: 13%;
 	height: 250px;
-	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
+	clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 0);
 	background-image: linear-gradient(to bottom, rgba(43, 54, 29, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 	transition: .5s;
 }
@@ -1379,7 +1379,7 @@ p.cryptech-info {
 			white,
 			rgba(0, 0, 0, 0)) 1;
 	width: 13%;
-	clip-path: polygon(100% 0, 100% 98%, 50% 80%, 0 98%, 0 0);
+	clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 0);
 	background-image: linear-gradient(to bottom, rgba(43, 54, 29, .5), rgba(255, 255, 255, .1));
 	transition: .5s;
 	-webkit-animation: squid .85s infinite alternate;
@@ -1411,7 +1411,7 @@ p.cryptech-info {
 	background-image: linear-gradient(to bottom, rgba(43, 54, 29, .5), rgba(255, 255, 255, .1));
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
-	height: 300px;
+	height: 250px;
 }
 
 .coin-mobile {
