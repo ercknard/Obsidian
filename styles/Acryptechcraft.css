@@ -1434,7 +1434,7 @@ p.cryptech-info {
 	border-image:
 		linear-gradient(to bottom,
 			white,
-			rgba(0, 0, 0, 0)) 1;
+			white) 1;
 	width: 13%;
 	height: 250px;
 	clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 0);
