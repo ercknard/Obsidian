@@ -1183,7 +1183,7 @@ p.cryptech-info {
 
 .story-group {
 	border: 1px solid white;
-	background: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(0, 212, 255, 0));
+	background: linear-gradient(to bottom, rgba(43, 54, 29, 1), rgba(0, 212, 255, 0));
 	filter: drop-shadow(5px 5px 1px black);
 	padding: 2rem;
 	position: relative;
@@ -1275,7 +1275,7 @@ p.cryptech-info {
 
 	.story-group {
 		border: 1px solid white;
-		background: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(0, 212, 255, 0));
+		background: linear-gradient(to bottom, rgba(43, 54, 29, 1), rgba(0, 212, 255, 0));
 		filter: drop-shadow(5px 5px 1px black);
 		padding: 2rem;
 		position: relative;
