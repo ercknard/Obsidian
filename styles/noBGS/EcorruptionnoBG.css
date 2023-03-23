@@ -1855,6 +1855,8 @@ p.cryptech-info {
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
+	position: absolute;
+	z-index: 1;
 	padding: 0 0;
 	display: none;
 	overflow: hidden;
